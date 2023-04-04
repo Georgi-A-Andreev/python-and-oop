@@ -1,0 +1,109 @@
+USE SoftUni
+GO
+
+--PROBLEM 1
+
+CREATE PROC usp_GetEmployeesSalaryAbove35000
+AS
+BEGIN
+        SELECT FirstName,
+               LastName
+          FROM Employees
+         WHERE Salary > 35000
+END
+
+EXEC usp_GetEmployeesSalaryAbove35000
+
+-- PROBLEM 2
+go
+
+CREATE PROC usp_GetEmployeesSalaryAboveNumber @number DECIMAL(18, 4)
+AS
+BEGIN
+               SELECT FirstName,
+                      LastName
+                 FROM Employees
+                WHERE Salary >= @number
+
+END
+
+-- problem 3
+GO
+
+CREATE PROC usp_GetTownsStartingWith @townName VARCHAR(50)
+AS
+BEGIN
+        SELECT [Name]
+          FROM Towns
+         WHERE Name LIKE @townName + '%'
+END
+
+EXEC dbo.usp_GetTownsStartingWith 'B'
+
+-- PROBLEM 4
+GO
+
+CREATE PROC usp_GetEmployeesFromTown @townName VARCHAR(50)
+AS
+BEGIN
+        SELECT e.FirstName,
+               e.LastName
+          FROM Employees
+            AS E
+          JOIN Addresses
+            AS a
+            ON e.AddressID = a.AddressID
+          JOIN Towns
+            AS t
+            ON t.TownID = a.TownID
+         WHERE t.Name = @townName
+END
+
+EXEC usp_GetEmployeesFromTown 'Sofia'
+
+-- problem 5
+GO
+GO
+CREATE FUNCTION ufn_GetSalaryLevel (@salary DECIMAL(18,4))
+RETURNS VARCHAR(10)
+AS
+BEGIN
+        DECLARE @SalaryLevel VARCHAR(10)
+        BEGIN
+            IF @salary < 30000
+            SET @SalaryLevel = 'Low'
+            ELSE IF @salary BETWEEN 30000 AND 50000
+            SET @SalaryLevel = 'Average'
+            ELSE IF @salary > 50000
+            SET @SalaryLevel = 'High'
+            RETURN @SalaryLevel
+
+        END
+
+END
+
+go
+
+SELECT salary,
+       dbo.ufn_GetSalaryLevel(Salary)
+       AS [sALARY LVEL]
+  FROM Employees
+
+  -- problem 6
+
+GO
+
+CREATE PROC usp_EmployeesBySalaryLevel @levelOfSalary VARCHAR(10)
+AS
+BEGIN
+
+        SELECT FirstName,
+               LastName
+
+          FROM Employees
+            as e
+         WHERE dbo.ufn_GetSalaryLevel(e.Salary) = @levelOfSalary
+END
+
+EXEC dbo.usp_EmployeesBySalaryLevel 'High'
+
