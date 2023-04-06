@@ -29,20 +29,26 @@ def print_field(matrix, player, choice):
 
 
 def validation(field, player, combinations_to_win):
-    lst, lst2, lst3, lst4 = [], [], [], []
     for r in range(len(field)):
         for c in field[r]:
+            lst, lst2, lst3, lst4 = [], [], [], []
             if c == player:
+
                 lst = field[r][field[r].index(c):min(len(field[r]), field[r].index(c) + combinations_to_win)]
-                if r <= len(field) - combinations_to_win:
-                    lst2 = [field[r + i][field[r].index(c)] for i in range(combinations_to_win)]
-                if r >= combinations_to_win - 1 and matrix[r].index(c) <= len(matrix[r]) - combinations_to_win:
-                    lst3 = [field[r - i][field[r].index(c) + i] for i in range(combinations_to_win)]
-                if r >= combinations_to_win - 1 and matrix[r].index(c) >= combinations_to_win - 1:
-                    lst4 = [field[r - i][field[r].index(c) - i] for i in range(combinations_to_win)]
-                for i in (lst, lst2, lst3, lst4):
-                    if len(i) == combinations_to_win and len(set(i)) == 1:
-                        return 'winner'
+
+                for i in range(combinations_to_win):
+                    if r <= len(field) - combinations_to_win:
+                        lst2.append(field[r + i][field[r].index(c)])
+
+                    if r >= combinations_to_win - 1 and matrix[r].index(c) <= len(matrix[r]) - combinations_to_win:
+                        lst3.append(field[r - i][field[r].index(c) + i])
+
+                    if r >= combinations_to_win - 1 and matrix[r].index(c) >= combinations_to_win - 1:
+                        lst4.append(field[r - i][field[r].index(c) - i])
+
+                    for x in (lst, lst2, lst3, lst4):
+                        if len(x) == combinations_to_win and len(set(x)) == 1:
+                            return True
 
 
 max_players = deque(range(1, int(input('How many players will play? : ')) + 1))
@@ -55,7 +61,7 @@ while True:
     current_player = max_players[0]
     choice = player_choice(current_player)
     print_field(matrix, current_player, choice)
-    if validation(matrix, current_player, combinations) == 'winner':
+    if validation(matrix, current_player, combinations):
         print(f'The winner is player {current_player}')
         break
     max_players.append(max_players.popleft())
