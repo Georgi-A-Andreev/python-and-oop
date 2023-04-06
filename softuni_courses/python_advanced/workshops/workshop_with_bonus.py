@@ -8,63 +8,44 @@ def create_field(row, col):
     return field
 
 
+def player_choice(player):
+    return int(input(f'Player {current_player}, please choose a column:\n')) - 1
+
+
+def print_field(matrix, player, choice):
+    for i in range(len(matrix) - 1, -1, -1):
+        if matrix[i][choice] == 0:
+            matrix[i][choice] = player
+            [print(i) for i in matrix]
+            break
+    return i, choice
+
+
+def validation(field, player):
+    for r in range(field):
+        for c in field[r]:
+            if c == player:
+                lst = field[r][field.index(c):min(len(field[r]) - 1, field.index(c) + 4)]
+                if field.index(c) <= len(field) - 4:
+                    lst2 = [field[r + i][field.index(c)] for i in range(len(field) - 4)]
+                if r >= 3 and matrix[r].index(c) <= len(matrix[r]) - 4:
+                    lst3 = [field[r - i][field.index(c) + i] for i in range(len(field) - 4)]
+                if r >= 3 and matrix[r].index(c) >= 3:
+                    lst4 = [field[r - i][field.index(c) - i] for i in range(len(field) - 4)]
+            for i in (lst, lst2, lst3, lst4):
+                if len(i) == 4 and set(i) == 1:
+                    return True
+
+
 max_players = deque(range(1, int(input('How many players will play? : ')) + 1))
 rows = int(input('How many rows? : '))
 cols = int(input('How many cols? : '))
 matrix = create_field(rows, cols)
+current_player = max_players[0]
+choice = player_choice(current_player)
+print_field(matrix, current_player, choice)
+if validation(matrix, current_player):
+    print(f'The winner is player {current_player}')
+    exit()
 
-we_got_a_winner = False
-
-while True:
-    try:
-        while True:
-            current_player = max_players[0]
-            choice = int(input(f'Player {current_player}, please choose a column:\n')) - 1
-
-            for i in range(len(matrix) - 1, -1, -1):
-                if matrix[i][choice] == 0:
-                    matrix[i][choice] = current_player
-                    [print(i) for i in matrix]
-                    break
-
-            for i in range(len(matrix)):   # validate horizontal
-                for j in matrix[i]:
-                    if j == 1 or j == 2:
-                        lst = matrix[i][matrix[i].index(j):min(matrix[i].index(j) + 4, len(matrix[i]))]
-                        if len(lst) == 4 and len(set(lst)) == 1:
-                            we_got_a_winner = True
-
-            for i in range(len(matrix)):   # validate vertical
-                for j in matrix[i]:
-                    if j == 1 or j == 2:
-                        if matrix[i].index(j) <= len(matrix[i]) - 4:
-                            lst = [matrix[i][matrix[i].index(j)], matrix[i - 1][matrix[i].index(j)],
-                                   matrix[i - 2][matrix[i].index(j)], matrix[i - 3][matrix[i].index(j)]]
-                            if len(lst) == 4 and len(set(lst)) == 1:
-                                we_got_a_winner = True
-
-            for i in range(len(matrix)):   # validate diagonal going up right
-                for j in matrix[i]:
-                    if j == 1 or j == 2:
-                        if i >= 3 and matrix[i].index(j) <= len(matrix[i]) - 4:
-                            lst = [matrix[i][matrix[i].index(j)], matrix[i - 1][matrix[i].index(j) + 1],
-                                   matrix[i - 2][matrix[i].index(j) + 2], matrix[i - 3][matrix[i].index(j) + 3]]
-                            if len(lst) == 4 and len(set(lst)) == 1:
-                                we_got_a_winner = True
-
-            for i in range(len(matrix)):   # validate diagonal going up left
-                for j in matrix[i]:
-                    if j == 1 or j == 2:
-                        if i >= 3 and matrix[i].index(j) >= 3:
-                            lst = [matrix[i][matrix[i].index(j)], matrix[i - 1][matrix[i].index(j) - 1],
-                                   matrix[i - 2][matrix[i].index(j) - 2], matrix[i - 3][matrix[i].index(j) - 3]]
-                            if len(lst) == 4 and len(set(lst)) == 1:
-                                we_got_a_winner = True
-
-            if we_got_a_winner:
-                print(f'The winner is player {current_player}')
-                exit()
-            max_players.append(max_players.popleft())
-
-    except IndexError:
-        print("Please enter valid position")
+max_players.append(max_players.popleft())
