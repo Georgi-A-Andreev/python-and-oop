@@ -1,16 +1,15 @@
 def choose_players_and_sign():
     player1 = input('Player one name: ')
     player2 = input('Player two name: ')
+
     while True:
         player1_sign = input(f'{player1} would you like to play with "X" or "O"? ').upper()
         if player1_sign in ('X', 'O'):
             break
         else:
             print('Invalid symbol !!!')
-    if player1_sign == 'X':
-        player2_sign = 'O'
-    else:
-        player2_sign = 'X'
+
+    player2_sign = 'O' if player1_sign == 'X' else 'X'
 
     return [player1, player1_sign], [player2, player2_sign]
 
@@ -21,16 +20,14 @@ def print_field(first_player, first_time=True):
         for i in range(1, 10, 3):
             print(f'| {i} | {i + 1} | {i + 2} |')
         print(f'{first_player} starts first!')
+
     else:
-        for r in field:
-            print('| ', end='')
-            print(' | '.join(str(i) for i in r), end='')
-            print(' |')
+        [print(f"| {' | '.join(r)} |") for r in field]
 
 
 def make_your_choice(player, sign):
-
     pick = int(input(f'{player} choose a free position [1-9]: '))
+
     if 0 <= pick < 10 and field[(pick - 1) // 3][(pick - 1) % 3] == ' ':
         field[(pick - 1) // 3][(pick - 1) % 3] = sign
     else:
