@@ -1,7 +1,12 @@
 def choose_players_and_sign():
     player1 = input('Player one name: ')
     player2 = input('Player two name: ')
-    player1_sign = input(f'{player1} would you like to play with "X" or "O"? ')
+    while True:
+        player1_sign = input(f'{player1} would you like to play with "X" or "O"? ').upper()
+        if player1_sign in ('X', 'O'):
+            break
+        else:
+            print('Invalid symbol !!!')
     if player1_sign == 'X':
         player2_sign = 'O'
     else:
