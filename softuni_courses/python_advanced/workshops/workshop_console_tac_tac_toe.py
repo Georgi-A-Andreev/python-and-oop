@@ -23,11 +23,14 @@ def print_field(first_player, first_time=True):
             print(' |')
 
 
-def make_your_choice(player):
+def make_your_choice(player, sign):
 
     pick = int(input(f'{player} choose a free position [1-9]: '))
-
-    return pick
+    if 0 <= pick < 10 and field[(pick - 1) // 3][(pick - 1) % 3] == ' ':
+        field[(pick - 1) // 3][(pick - 1) % 3] = sign
+    else:
+        print('Invalid Position !!!')
+        make_your_choice(player, sign)
 
 
 def validation(matrix, current, current_sign):
@@ -45,15 +48,12 @@ def start():
     current, other = choose_players_and_sign()
     print_field(current[0])
     while True:
-        pick = make_your_choice(current[0])
-        field[(pick - 1) // 3][(pick - 1) % 3] = current[1]
+        make_your_choice(current[0], current[1])
         print_field(current[0], False)
         validation(field, current[0], current[1])
         current, other = other, current
 
 
-player_one = None
-player_two = None
 field = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
 
 start()
