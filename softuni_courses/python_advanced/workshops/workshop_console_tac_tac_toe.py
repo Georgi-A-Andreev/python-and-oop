@@ -10,11 +10,12 @@ def choose_players_and_sign():
     return [player1, player1_sign], [player2, player2_sign]
 
 
-def print_field(first_time=True):
+def print_field(first_player, first_time=True):
     if first_time:
+        print('This is the numeration of the board:')
         for i in range(1, 10, 3):
             print(f'| {i} | {i + 1} | {i + 2} |')
-        first_time = True
+        print(f'{first_player} starts first!')
     else:
         for r in field:
             print('| ', end='')
@@ -22,10 +23,37 @@ def print_field(first_time=True):
             print(' |')
 
 
+def make_your_choice(player):
+
+    pick = int(input(f'{player} choose a free position [1-9]: '))
+
+    return pick
+
+
+def validation(matrix, current, current_sign):
+    diagonal = all([matrix[i][i] == current_sign for i in range(len(matrix))])
+    diagonal2 = all([matrix[i][len(matrix) - 1 - i] == current_sign for i in range(len(matrix))])
+    vertical = all([matrix[i][0] == current_sign for i in range(len(matrix))])
+    horizontal = any([len(set(matrix[r])) == 1 and current_sign in matrix[r] for r in range(len(matrix))])
+
+    if any([diagonal, diagonal2, vertical, horizontal]):
+        print(f'{current} won!')
+        exit()
+
+
+def start():
+    current, other = choose_players_and_sign()
+    print_field(current[0])
+    while True:
+        pick = make_your_choice(current[0])
+        field[(pick - 1) // 3][(pick - 1) % 3] = current[1]
+        print_field(current[0], False)
+        validation(field, current[0], current[1])
+        current, other = other, current
+
+
+player_one = None
+player_two = None
 field = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
 
-print_field()
-
-field[1][1] = 'X'
-print_field(False)
-
+start()
