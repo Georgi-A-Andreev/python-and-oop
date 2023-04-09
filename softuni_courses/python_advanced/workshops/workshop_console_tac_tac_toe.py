@@ -7,6 +7,25 @@ def choose_players_and_sign():
     else:
         player2_sign = 'X'
 
-    return (player1, player1_sign), (player2, player2_sign)
+    return [player1, player1_sign], [player2, player2_sign]
 
+
+def print_field(first_time=True):
+    if first_time:
+        for i in range(1, 10, 3):
+            print(f'| {i} | {i + 1} | {i + 2} |')
+        first_time = True
+    else:
+        for r in field:
+            print('| ', end='')
+            print(' | '.join(str(i) for i in r), end='')
+            print(' |')
+
+
+field = [[" ", " ", " "], [" ", " ", " "], [" ", " ", " "]]
+
+print_field()
+
+field[1][1] = 'X'
+print_field(False)
 
