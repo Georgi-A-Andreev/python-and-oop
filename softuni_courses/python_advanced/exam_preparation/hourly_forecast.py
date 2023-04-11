@@ -20,7 +20,6 @@ def forecast(*args):
     return resul
 
 
-
 print(forecast(
     ("Sofia", "Sunny"),
     ("London", "Cloudy"),

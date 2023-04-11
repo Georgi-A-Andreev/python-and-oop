@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67a45756-17d9-4e7a-926c-d3b27adf346a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_advanced/exam_preparation/exam_prep_2/hourly_forecast.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_advanced/exam_preparation/exam_prep_2/hourly_forecast.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +86,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_advanced/exam_preparation/exam_prep_2/hourly_forecast.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\hourly_forecast.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -109,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_advanced/exam_preparation/exam_prep_2/navy_battle.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\navy_battle.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -130,7 +128,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_advanced/exam_preparation/exam_prep_2/ramen_shop.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\ramen_shop.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
