@@ -1,3 +1,3 @@
-a = "Computer Science-12-300-250".split()
+a, b = [int(i) for i in input() if i.isdigit()]
 
-print(a)
+print(a, b)
