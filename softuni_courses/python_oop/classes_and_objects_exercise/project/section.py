@@ -24,7 +24,7 @@ class Section:
         for i in self.tasks:
             if i.completed:
                 counter += 1
-                self.tasks = [i for i in self.tasks if not i.completed]
+        self.tasks = [i for i in self.tasks if not i.completed]
         return f"Cleared {counter} tasks."
 
     def view_section(self):
