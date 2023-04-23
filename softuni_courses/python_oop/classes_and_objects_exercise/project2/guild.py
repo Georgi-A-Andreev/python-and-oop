@@ -1,4 +1,4 @@
-from project.player import Player
+from softuni_courses.python_oop.classes_and_objects_exercise.project2.player import Player
 
 
 class Guild:
