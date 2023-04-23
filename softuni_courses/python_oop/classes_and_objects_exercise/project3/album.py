@@ -34,4 +34,3 @@ class Album:
 
     def details(self):
         return f"Album {self.name}\n" + '\n'.join([f"== {s.get_info()}" for s in self.songs])
-                                        

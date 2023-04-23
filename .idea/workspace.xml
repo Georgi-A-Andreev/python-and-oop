@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/band.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/song.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/section.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/section.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/task.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/album.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/band.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/song.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +61,8 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_advanced\workshops" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.guild">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.band">
+    <configuration name="band" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -64,11 +70,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/band.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -163,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.band" />
         <item itemvalue="Python.guild" />
         <item itemvalue="Python.section (1)" />
         <item itemvalue="Python.section" />
         <item itemvalue="Python.pizza_delivery" />
-        <item itemvalue="Python.account" />
       </list>
     </recent_temporary>
   </component>
