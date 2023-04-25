@@ -7,10 +7,10 @@
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project5/car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/sports_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project5/sports_car.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project5/vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project6/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project6/animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project6/cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project6/dog.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
