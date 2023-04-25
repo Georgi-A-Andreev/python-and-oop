@@ -5,15 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/band.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/section.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/section.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/task.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/task.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project5/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/album.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/album.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/band.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project3/song.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/classes_and_objects_exercise/project/song.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project2/fruit.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project2/fruit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
