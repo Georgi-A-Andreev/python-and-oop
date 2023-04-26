@@ -5,7 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/sport_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/cross_motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/cross_motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/family_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/family_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/race_motorcycle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/race_motorcycle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/sport_car.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project/vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project5/vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
