@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/zoo.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/zoo.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/topping.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/topping.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
