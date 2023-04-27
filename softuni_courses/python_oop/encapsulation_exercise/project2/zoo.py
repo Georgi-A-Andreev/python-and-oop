@@ -1,16 +1,16 @@
 class Zoo:
-    def __init__(self, name, budged, animal_capacity, workers_capacity):
+    def __init__(self, name, budget, animal_capacity, workers_capacity):
         self.name = name
-        self.__budged = budged
+        self.__budget = budget
         self.__animal_capacity = animal_capacity
         self.__workers_capacity = workers_capacity
         self.animals = []
         self.workers = []
 
     def add_animal(self, animal, price):
-        if len(self.animals) < self.__animal_capacity and price <= self.__budged:
+        if len(self.animals) < self.__animal_capacity and price <= self.__budget:
             self.animals.append(animal)
-            self.__budged -= price
+            self.__budget -= price
             return f"{animal.name} the {animal.__class__.__name__} added to the zoo"
         if len(self.animals) < self.__animal_capacity:
             return "Not enough budget"
@@ -34,9 +34,9 @@ class Zoo:
         for i in self.workers:
             salaries += i.salary
 
-        if self.__budged >= salaries:
-            self.__budged -= salaries
-            return f"You payed your workers. They are happy. Budget left: {self.__budged}"
+        if self.__budget >= salaries:
+            self.__budget -= salaries
+            return f"You payed your workers. They are happy. Budget left: {self.__budget}"
         return "You have no budget to pay your workers. They are unhappy"
 
     def tend_animals(self):
@@ -44,13 +44,13 @@ class Zoo:
         for i in self.animals:
             care_money += i.money_for_care
 
-        if care_money <= self.__budged:
-            self.__budged -= care_money
-            return f"You tended all the animals. They are happy. Budget left: {self.__budged}"
+        if care_money <= self.__budget:
+            self.__budget -= care_money
+            return f"You tended all the animals. They are happy. Budget left: {self.__budget}"
         return "You have no budget to tend the animals. They are unhappy."
 
     def profit(self, amount):
-        self.__budged += amount
+        self.__budget += amount
 
     def animals_status(self):
         lions = 0
