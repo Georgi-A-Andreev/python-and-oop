@@ -6,8 +6,17 @@
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/dough.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/pizza.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/topping.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/topping.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project3/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project3/dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/bear.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/bear.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/gorilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/gorilla.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/lizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/lizard.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/mammal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/reptile.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/reptile.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +70,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -75,7 +84,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -89,7 +98,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -103,7 +112,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -117,7 +126,7 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />

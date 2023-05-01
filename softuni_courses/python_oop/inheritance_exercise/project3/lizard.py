@@ -1,4 +1,4 @@
-from project3.reptile import Reptile
+from project.reptile import Reptile
 
 
 class Lizard(Reptile):
