@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/dough.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/dough.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/pizza.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/pizza.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project3/topping.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/topping.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project3/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance/project3/dog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/bear.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/bear.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/gorilla.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/gorilla.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/lizard.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/lizard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/mammal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/reptile.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/reptile.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/inheritance_exercise/project3/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,19 +55,26 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_advanced\workshops" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for asd.Tests.test_pizza_add_topping_update">
-    <configuration name="Python tests for asd.Tests" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.calculator">
+    <configuration name="calculator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/class_and_static_methods" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;asd.Tests&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/class_and_static_methods/calculator.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for asd.Tests.test_pizza_add_topping_update" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -137,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.calculator" />
         <item itemvalue="Python tests.Python tests for asd.Tests.test_pizza_add_topping_update" />
         <item itemvalue="Python tests.Python tests for asddas.Tests" />
         <item itemvalue="Python tests.Python tests in C:/Users/User/PycharmProjects/github/softuni_courses/python_oop/encapsulation_exercise/project/asdadsd.py" />
         <item itemvalue="Python tests.Python tests in C:/Users/User/PycharmProjects/github/softuni_courses/python_oop/encapsulation_exercise/project/asd.py" />
-        <item itemvalue="Python tests.Python tests for asd.Tests" />
       </list>
     </recent_temporary>
   </component>
