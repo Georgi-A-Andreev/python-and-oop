@@ -18,4 +18,3 @@ class Room:
             self.guests = 0
         else:
             return f"Room number {self.number} is not taken"
-        
