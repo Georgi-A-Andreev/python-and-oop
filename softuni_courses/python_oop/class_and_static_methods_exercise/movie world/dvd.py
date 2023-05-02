@@ -32,4 +32,4 @@ class DVD:
     def __repr__(self):
         return f"{self.id}: {self.name} ({self.creation_month} {self.creation_year})" \
                f" has age restriction {self.age_restriction}." \
-               f" Status: {'rented' if self.is_rented == True else 'not rented'}"
+               f" Status: {'rented' if self.is_rented else 'not rented'}"
