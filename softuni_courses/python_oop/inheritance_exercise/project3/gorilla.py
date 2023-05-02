@@ -1,4 +1,4 @@
-from project.mammal import Mammal
+from document_management.mammal import Mammal
 
 
 class Gorilla(Mammal):

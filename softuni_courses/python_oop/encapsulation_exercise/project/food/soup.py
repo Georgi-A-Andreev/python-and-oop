@@ -1,4 +1,4 @@
-from project.food.starter import Starter
+from document_management.food.starter import Starter
 
 
 class Soup(Starter):

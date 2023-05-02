@@ -1,4 +1,4 @@
-from project.room import Room
+from document_management.room import Room
 
 
 class Hotel:

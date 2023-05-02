@@ -1,4 +1,4 @@
-from project.product import Product
+from document_management.product import Product
 
 
 class Beverage(Product):

@@ -1,4 +1,4 @@
-from project.animal import Animal
+from document_management.animal import Animal
 
 
 class Mammal(Animal):
