@@ -18,4 +18,3 @@ class Customer:
 
     def __repr__(self):
         return f"Customer <{self.id}> {self.name}; Address: {self.address}; Email: {self.email}"
-    
