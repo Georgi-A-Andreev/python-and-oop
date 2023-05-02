@@ -23,29 +23,37 @@ class MovieWorld:
     def rent_dvd(self, customer_id, dvd_id):
         customer = None
         dvd = None
+
         for i in self.dvds:
             if i.id == dvd_id:
                 dvd = i
+
         for i in self.customers:
             if i.id == customer_id:
                 customer = i
 
         if dvd in customer.rented_dvds:
             return f"{customer.name} has already rented {dvd.name}"
+
         if dvd.is_rented:
             return "DVD is already rented"
+
         if customer.age < dvd.age_restriction:
             return f"{customer.name} should be at least {dvd.age_restriction} to rent this movie"
+
         customer.rented_dvds.append(dvd)
         dvd.is_rented = True
+
         return f"{customer.name} has successfully rented {dvd.name}"
 
     def return_dvd(self, customer_id, dvd_id):
         customer = None
         dvd = None
+
         for i in self.dvds:
             if i.id == dvd_id:
                 dvd = i
+
         for i in self.customers:
             if i.id == customer_id:
                 customer = i
@@ -53,7 +61,9 @@ class MovieWorld:
         if dvd in customer.rented_dvds:
             customer.rented_dvds.remove(dvd)
             dvd.is_rented = False
+
             return f"{customer.name} has successfully returned {dvd.name}"
+
         return f"{customer.name} does not have that DVD"
 
     def __repr__(self):
