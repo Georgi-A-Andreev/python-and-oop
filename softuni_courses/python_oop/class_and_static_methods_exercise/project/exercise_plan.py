@@ -22,4 +22,3 @@ class ExercisePlan:
 
     def __repr__(self):
         return f"Plan <{self.id}> with duration {self.duration} minutes"
-    
