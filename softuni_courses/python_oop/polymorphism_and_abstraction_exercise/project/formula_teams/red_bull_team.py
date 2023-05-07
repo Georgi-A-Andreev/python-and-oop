@@ -2,8 +2,8 @@ from project.formula_teams.formula_team import FormulaTeam
 
 
 class RedBullTeam(FormulaTeam):
-    def __init__(self, budged):
-        super().__init__(budged)
+    def __init__(self, budget):
+        super().__init__(budget)
 
     def calculate_revenue_after_race(self, race_pos):
         sponsors = 0
@@ -17,6 +17,6 @@ class RedBullTeam(FormulaTeam):
             sponsors = 10000
 
         sponsors -= 250000
-        self.budged += sponsors
+        self.budget += sponsors
 
-        return f"The revenue after the race is {sponsors}$. Current budget {self.budged}$"
+        return f"The revenue after the race is {sponsors}$. Current budget {self.budget}$"

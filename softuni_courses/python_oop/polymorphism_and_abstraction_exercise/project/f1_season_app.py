@@ -7,11 +7,11 @@ class F1SeasonApp:
         self.red_bull_team = None
         self.mercedes_team = None
 
-    def register_team_for_season(self, team_name, budged):
+    def register_team_for_season(self, team_name, budget):
         if team_name == 'Red Bull':
-            self.red_bull_team = RedBullTeam(budged)
+            self.red_bull_team = RedBullTeam(budget)
         elif team_name == 'Mercedes':
-            self.mercedes_team = MercedesTeam(budged)
+            self.mercedes_team = MercedesTeam(budget)
         else:
             raise ValueError("Invalid team name!")
 
