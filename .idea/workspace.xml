@@ -6,13 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/animal.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/cat.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/dog.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/kitten.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/kitten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/tomcat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/tomcat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/f1_season_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/f1_season_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/formula_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/formula_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/mercedes_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/mercedes_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/red_bull_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/red_bull_team.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,8 +57,8 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_advanced\workshops" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.tomcat">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.asdasd">
+    <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,11 +66,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/asd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -82,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="groups" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="asdasd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -90,11 +87,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/groups.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/asdasd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -145,27 +142,27 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in account.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for main.TestF1SeasonAppClass.test_practice" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/account.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="_new_target" value="&quot;main.TestF1SeasonAppClass.test_practice&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.tomcat" />
+        <item itemvalue="Python.asdasd" />
+        <item itemvalue="Python.asd" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.groups" />
-        <item itemvalue="Python.account" />
-        <item itemvalue="Python tests.Python tests in account.py" />
+        <item itemvalue="Python tests.Python tests for main.TestF1SeasonAppClass.test_practice" />
+        <item itemvalue="Python.tomcat" />
       </list>
     </recent_temporary>
   </component>

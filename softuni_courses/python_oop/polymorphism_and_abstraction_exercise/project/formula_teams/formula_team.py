@@ -13,6 +13,7 @@ class FormulaTeam(ABC):
     def budged(self, value):
         if value < 1_000_000:
             raise ValueError('"F1 is an expensive sport, find more sponsors!"')
+
         self.__budged = value
 
     @abstractmethod
