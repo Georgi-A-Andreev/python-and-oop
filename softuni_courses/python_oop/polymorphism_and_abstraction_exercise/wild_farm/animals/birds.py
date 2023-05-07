@@ -1,6 +1,6 @@
 
-from project.animals.animal import Bird
-from project.food import Meat
+from wild_farm.animals.animal import Bird
+from wild_farm.food import Meat
 
 
 class Owl(Bird):
