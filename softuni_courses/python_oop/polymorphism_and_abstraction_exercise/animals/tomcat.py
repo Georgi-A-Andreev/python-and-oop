@@ -1,4 +1,4 @@
-from project.cat import Cat
+from animals.cat import Cat
 
 
 class Tomcat(Cat):

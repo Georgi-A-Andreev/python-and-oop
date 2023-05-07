@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/kitten.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/kitten.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/tomcat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/tomcat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/animal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/animal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/cat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/cat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/dog.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/dog.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/kitten.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/kitten.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/tomcat.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/animals/tomcat.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
