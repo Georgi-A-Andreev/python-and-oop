@@ -26,7 +26,7 @@ class RubberDuck(Duck):
 
 class RobotDuck(Duck, Walkable, Flyable):
     HEIGHT = 50
- 
+
     def __init__(self):
         super().__init__()
         self.height = 0
