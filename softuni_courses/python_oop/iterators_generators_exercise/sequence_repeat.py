@@ -1,6 +1,6 @@
 class sequence_repeat:
     def __init__(self, sequence, number):
-        self.sequence = sequence * number
+        self.sequence = sequence
         self.number = number
         self.counter = -1
 
@@ -12,7 +12,7 @@ class sequence_repeat:
             raise StopIteration
 
         self.counter += 1
-        return self.sequence[self.counter]
+        return self.sequence[self.counter % len(self.sequence)]
 
 
 result = sequence_repeat('abc', 5)
