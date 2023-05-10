@@ -1,10 +1,9 @@
 def fibonacci():
-    sequence = [0, 1]
-    idx = 0
+    n1, n2 = 0, 1
+
     while True:
-        yield sequence[idx]
-        idx += 1
-        sequence.append(sequence[-1] + sequence[-2])
+        yield n1
+        n1, n2 = n2, n1 + n2
 
 
 generator = fibonacci()
