@@ -47,15 +47,15 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\encapsulation_exercise\project55" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\classes_and_objects_exercise" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\first_steps_in_oop_exercise\project2" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\first_steps_in_oop_exercise\asdasdasd" />
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\lists_exercise" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\solid_exercise" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\regex_exercise" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\regex_lab" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\solid\dip" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.main">
-    <configuration name="account" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.sequence_repeat">
+    <configuration name="asdasd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -63,11 +63,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation/account.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/asdasd.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -76,7 +76,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="countdown_iterator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -84,11 +84,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/main.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/countdown_iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,7 +97,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="starter" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="dictionary_iterator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -105,11 +105,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/food" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/food/starter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/dictionary_iterator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +118,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="team" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="sequence_repeat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,11 +126,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\encapsulation_exercise\project55\team.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/sequence_repeat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -139,7 +139,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="zoo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="take_skip" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -147,11 +147,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/encapsulation_exercise/project/zoo.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/take_skip.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -162,11 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.main" />
-        <item itemvalue="Python.starter" />
-        <item itemvalue="Python.team" />
-        <item itemvalue="Python.zoo" />
-        <item itemvalue="Python.account" />
+        <item itemvalue="Python.sequence_repeat" />
+        <item itemvalue="Python.dictionary_iterator" />
+        <item itemvalue="Python.countdown_iterator" />
+        <item itemvalue="Python.asdasd" />
+        <item itemvalue="Python.take_skip" />
       </list>
     </recent_temporary>
   </component>

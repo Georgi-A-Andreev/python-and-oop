@@ -1,4 +1,4 @@
-from project.beverage.beverage import Beverage
+from document_management.beverage.beverage import Beverage
 
 
 class ColdBeverage(Beverage):

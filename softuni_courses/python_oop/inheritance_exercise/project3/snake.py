@@ -1,4 +1,4 @@
-from project3.reptile import Reptile
+from document_management.reptile import Reptile
 
 
 class Snake(Reptile):
