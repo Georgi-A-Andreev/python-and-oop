@@ -4,6 +4,10 @@ while True:
     if name == 'Welcome!':
         break
 
+    if name == 'Voldemort':
+        print("You must not speak of that name!")
+        exit()
+
     x = len(name)
 
     if x < 5:
@@ -13,4 +17,7 @@ while True:
     elif x == 6:
         print(f"{name} goes to Ravenclaw.")
     elif x > 6:
-        print()
+        print(f"{name} goes to Hufflepuff.")
+
+
+print("Welcome to Hogwarts.")
