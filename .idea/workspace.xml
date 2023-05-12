@@ -51,8 +51,8 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\regex_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.possible_permutations">
-    <configuration name="fibonacci_generator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.wolf_in_sheep_clothings">
+    <configuration name="double_char" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,11 +60,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/fibonacci_generator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_exercise/double_char.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="possible_permutations" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_the_capitals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/possible_permutations.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise/find_the_capitals.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -94,7 +94,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="prime_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="find_the_largest" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -102,11 +102,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/prime_numbers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise/find_the_largest.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -115,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="reader" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="how_much_coffee_do_you_need" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -123,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/reader.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_exercise/how_much_coffee_do_you_need.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -136,27 +136,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in possible_permutations.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="wolf_in_sheep_clothings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/possible_permutations.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise/wolf_in_sheep_clothings.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.possible_permutations" />
-        <item itemvalue="Python tests.Python tests in possible_permutations.py" />
-        <item itemvalue="Python.prime_numbers" />
-        <item itemvalue="Python.reader" />
-        <item itemvalue="Python.fibonacci_generator" />
+        <item itemvalue="Python.wolf_in_sheep_clothings" />
+        <item itemvalue="Python.find_the_capitals" />
+        <item itemvalue="Python.find_the_largest" />
+        <item itemvalue="Python.how_much_coffee_do_you_need" />
+        <item itemvalue="Python.double_char" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +191,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/sequence_repeat.py</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
       <default-breakpoints>
         <breakpoint type="python-exception">
           <properties notifyOnTerminate="true" exception="BaseException">
