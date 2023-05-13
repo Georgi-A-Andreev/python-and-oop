@@ -51,7 +51,7 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\lists_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.even_numbers">
+  <component name="RunManager" selected="Python.multiply">
     <configuration name="even_numbers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -73,7 +73,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="find_the_capitals" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="multiply" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,11 +81,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/decorators" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/basic_synthax_more_exercise/find_the_capitals.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/decorators/multiply.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -159,11 +159,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multiply" />
         <item itemvalue="Python.even_numbers" />
         <item itemvalue="Python.vowel_filter" />
         <item itemvalue="Python.number_increment" />
         <item itemvalue="Python.wolf_in_sheep_clothings" />
-        <item itemvalue="Python.find_the_capitals" />
       </list>
     </recent_temporary>
   </component>
