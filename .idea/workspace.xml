@@ -52,8 +52,8 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\lists_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.gladiator_expenses">
-    <configuration name="elevator" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.exchange_integers">
+    <configuration name="exchange_integers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -61,11 +61,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_exercise/elevator.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise/exchange_integers.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.exchange_integers" />
         <item itemvalue="Python.gladiator_expenses" />
         <item itemvalue="Python.snowballs" />
         <item itemvalue="Python.party_profit" />
         <item itemvalue="Python.triples_of_latin_letters" />
-        <item itemvalue="Python.elevator" />
       </list>
     </recent_temporary>
   </component>
