@@ -52,6 +52,9 @@ class TestIntegerList(unittest.TestCase):
     def test_constructor(self):
         self.assertEqual(self.x._IntegerList__data, [1, 2, 3])
 
+    def test_get_data(self):
+        self.assertEqual(self.x.get_data(), [1, 2, 3])
+
     def test_add(self):
         self.assertEqual(self.x.add(4), [1, 2, 3, 4])
         with self.assertRaises(ValueError) as case:
