@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing/extended_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing/extended_list.py" afterDir="false" />
-    </list>
+    <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,11 +44,11 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\classes_and_objects_exercise" />
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\basic_synthax_conditional_statements" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\testing" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\classes_lab" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\functions_more_exercise" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\midd_exam_prep" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\dictionaries_exercise" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests in car_manager.py">
