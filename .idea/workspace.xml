@@ -46,33 +46,26 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\testing" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\classes_lab" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\functions_more_exercise" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\midd_exam_prep" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\dictionaries_exercise" />
-      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\lists_lab" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in test_cat.py">
-    <configuration name="html_tags" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for extended_list.TestIntegerList">
+    <configuration name="Python tests for extended_list.TestIntegerList" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/decorators_exercise" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_oop/decorators_exercise/html_tags.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;extended_list.TestIntegerList&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for test_cat.CatTests.test_cat_is_already_fed" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -103,6 +96,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in extended_list.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing/extended_list.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_cat.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -117,27 +124,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_worker.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="github" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing/test_worker.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for extended_list.TestIntegerList" />
+        <item itemvalue="Python tests.Python tests in extended_list.py" />
         <item itemvalue="Python tests.Python tests in test_cat.py" />
         <item itemvalue="Python tests.Python tests for test_cat.CatTests.test_cat_is_already_fed" />
         <item itemvalue="Python tests.Python tests for test_worker.WorkerTests" />
-        <item itemvalue="Python tests.Python tests in test_worker.py" />
-        <item itemvalue="Python.html_tags" />
       </list>
     </recent_temporary>
   </component>
