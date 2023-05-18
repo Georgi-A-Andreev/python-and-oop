@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test/test_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test/test_hero.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/vehicle/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +50,14 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\student\test" />
+      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\student\project" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\hero\test" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\hero\project" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\vehicle\test" />
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\vehicle\project" />
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\mammal\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_hero.TestHero">
+  <component name="RunManager" selected="Python tests.Python tests for test_student.TestStudent">
     <configuration name="Python tests for test_hero.TestHero" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +86,20 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_student.TestStudent" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_student.TestStudent&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests in test_hero.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,41 +114,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_mammal.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_student.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests in test_vehicle.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="github" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/vehicle/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/vehicle/test/test_vehicle.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test/test_student.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_student.TestStudent" />
+        <item itemvalue="Python tests.Python tests in test_student.py" />
         <item itemvalue="Python tests.Python tests for test_hero.TestHero" />
         <item itemvalue="Python tests.Python tests for test_hero.TestHero.test_str_method" />
         <item itemvalue="Python tests.Python tests in test_hero.py" />
-        <item itemvalue="Python tests.Python tests in test_vehicle.py" />
-        <item itemvalue="Python tests.Python tests in test_mammal.py" />
       </list>
     </recent_temporary>
   </component>
