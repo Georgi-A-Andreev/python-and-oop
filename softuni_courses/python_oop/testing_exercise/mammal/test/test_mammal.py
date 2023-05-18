@@ -1,24 +1,25 @@
-import unittest
 from project.mammal import Mammal
+import unittest
 
 
 class TestMammal(unittest.TestCase):
     def setUp(self) -> None:
-        self.mammal = Mammal('some_name', 'some type', 'some sound')
+        self.mammal = Mammal('m', 'mt', 'ms')
 
-    def test_correct_initialization(self):
-        self.assertTrue(self.mammal.name, 'some name')
-        self.assertTrue(self.mammal.type, 'some type')
-        self.assertTrue(self.mammal.sound, 'some sound')
-
-    def test_get_kingdom(self):
-        self.assertTrue(self.mammal.get_kingdom(), 'animals')
+    def test_initialization(self):
+        self.assertEqual(self.mammal.name, 'm')
+        self.assertEqual(self.mammal.type, 'mt')
+        self.assertEqual(self.mammal.sound, 'ms')
+        self.assertEqual(self.mammal._Mammal__kingdom, 'animals')
 
     def test_make_sound(self):
-        self.assertTrue(self.mammal.make_sound(), "some name makes some sound")
+        self.assertEqual(self.mammal.make_sound(), "m makes ms")
 
-    def test_get_info(self):
-        self.assertTrue(self.mammal.info(), "some name is of type some type")
+    def test_get_kingdom(self):
+        self.assertEqual(self.mammal.get_kingdom(), 'animals')
+
+    def test_info(self):
+        self.assertEqual(self.mammal.info(), "m is of type mt")
 
 
 if __name__ == '__main__':

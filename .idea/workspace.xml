@@ -7,7 +7,7 @@
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/github.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,32 +57,32 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\vehicle\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_student.TestStudent">
-    <configuration name="Python tests for test_hero.TestHero" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_mammal.TestMammal">
+    <configuration name="Python tests for test_mammal.TestMammal" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hero.TestHero&quot;" />
+      <option name="_new_target" value="&quot;test_mammal.TestMammal&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_hero.TestHero.test_str_method" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_mammal.TestMammal.test_get_kingdom" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_hero.TestHero.test_str_method&quot;" />
+      <option name="_new_target" value="&quot;test_mammal.TestMammal.test_get_kingdom&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -100,17 +100,17 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests in test_hero.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests in test_mammal.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test/test_hero.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
@@ -130,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_mammal.TestMammal" />
+        <item itemvalue="Python tests.Python tests for test_mammal.TestMammal.test_get_kingdom" />
+        <item itemvalue="Python tests.Python tests in test_mammal.py" />
         <item itemvalue="Python tests.Python tests for test_student.TestStudent" />
         <item itemvalue="Python tests.Python tests in test_student.py" />
-        <item itemvalue="Python tests.Python tests for test_hero.TestHero" />
-        <item itemvalue="Python tests.Python tests for test_hero.TestHero.test_str_method" />
-        <item itemvalue="Python tests.Python tests in test_hero.py" />
       </list>
     </recent_temporary>
   </component>
