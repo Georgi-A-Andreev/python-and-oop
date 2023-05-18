@@ -52,7 +52,7 @@
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\lists_exercise" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.rock_paper_csissors">
+  <component name="RunManager" selected="Python.guess_a_number">
     <configuration name="balanced_brackets" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +95,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="exchange_integers" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="guess_a_number" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -107,7 +107,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise/exchange_integers.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise/guess_a_number.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -160,11 +160,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.guess_a_number" />
         <item itemvalue="Python.rock_paper_csissors" />
         <item itemvalue="Python.balanced_brackets" />
         <item itemvalue="Python.decrypting_messages" />
         <item itemvalue="Python.prime_number_checker" />
-        <item itemvalue="Python.exchange_integers" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +197,16 @@
           <url>file://$PROJECT_DIR$/softuni_courses/python_oop/iterators_generators_exercise/sequence_repeat.py</url>
           <line>7</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise/guess_a_number.py</url>
+          <line>26</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/softuni_courses/python_fundamentals/second_time_problems/types_variables_more_exercise/guess_a_number.py</url>
+          <line>25</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
       <default-breakpoints>
