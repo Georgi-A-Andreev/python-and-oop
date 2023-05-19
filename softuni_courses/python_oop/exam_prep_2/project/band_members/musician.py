@@ -16,7 +16,7 @@ class Musician(ABC):
 
     @name.setter
     def name(self, value):
-        if value.stip() == '':
+        if value.strip() == '':
             raise ValueError("Musician name cannot be empty!")
         self.__name = value
 
