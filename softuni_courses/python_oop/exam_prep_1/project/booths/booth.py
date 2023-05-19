@@ -6,7 +6,7 @@ class Booth(ABC):
         self.booth_number = booth_number
         self.capacity = capacity
         self.delicacy_orders = []
-        self.price_for_reservations = 0
+        self.price_for_reservation = 0
         self.is_reserved = False
         
     @property
