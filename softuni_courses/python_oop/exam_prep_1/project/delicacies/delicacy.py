@@ -4,9 +4,9 @@ from abc import ABC, abstractmethod
 class Delicacy(ABC):
 
     def __init__(self, name, portion, price):
-        self.__name = name
+        self.name = name
         self.portion = portion
-        self.__price = price
+        self.price = price
 
     @property
     def name(self):
