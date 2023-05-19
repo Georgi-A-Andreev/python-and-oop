@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 
 class Delicacy(ABC):
 
-    def __init__(self, name, portion, price):
+    def __init__(self, name, portion, price: float):
         self.name = name
         self.portion = portion
         self.price = price
