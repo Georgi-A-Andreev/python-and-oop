@@ -1,5 +1,5 @@
 import unittest
-from project.hero import Hero
+from project2.hero import Hero
 
 
 class TestHero(unittest.TestCase):

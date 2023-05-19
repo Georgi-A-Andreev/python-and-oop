@@ -6,8 +6,22 @@
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/christmas_pastry_shop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/christmas_pastry_shop_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/delicacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/delicacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/booths/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/booths/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/booths/booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/booths/booth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/booths/open_booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/booths/open_booth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/booths/private_booth.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/booths/private_booth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/christmas_pastry_shop_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/christmas_pastry_shop_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/delicacies/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/delicacy.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/delicacies/delicacy.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/gingerbread.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/delicacies/gingerbread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/delicacies/stolen.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project2/delicacies/stolen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/f1_season_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/f1_season_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/mercedes_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/mercedes_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/red_bull_team.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/polymorphism_and_abstraction_exercise/project/formula_teams/red_bull_team.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test/test_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/hero/test/test_hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/mammal/test/test_mammal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test/test_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test/test_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/vehicle/test/test_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/vehicle/test/test_vehicle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,14 +64,14 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\exam_prep_1\project" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\exam_prep_1" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\student\test" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\student\project" />
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\hero\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.christmas_pastry_shop_app">
+  <component name="RunManager" selected="Python tests.Python tests in test_toy_store.py">
     <configuration name="christmas_pastry_shop_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,20 +121,6 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_student.TestStudent" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="github" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/testing_exercise/student/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_student.TestStudent&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test_mammal.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -135,13 +135,27 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in test_toy_store.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_1/project/test/test_toy_store.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in test_toy_store.py" />
         <item itemvalue="Python.christmas_pastry_shop_app" />
         <item itemvalue="Python tests.Python tests for test_mammal.TestMammal" />
         <item itemvalue="Python tests.Python tests for test_mammal.TestMammal.test_get_kingdom" />
         <item itemvalue="Python tests.Python tests in test_mammal.py" />
-        <item itemvalue="Python tests.Python tests for test_student.TestStudent" />
       </list>
     </recent_temporary>
   </component>
