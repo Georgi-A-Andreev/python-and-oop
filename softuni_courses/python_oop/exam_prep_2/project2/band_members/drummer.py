@@ -1,4 +1,4 @@
-from project.band_members.musician import Musician
+from project2.band_members.musician import Musician
 
 
 class Drummer(Musician):
