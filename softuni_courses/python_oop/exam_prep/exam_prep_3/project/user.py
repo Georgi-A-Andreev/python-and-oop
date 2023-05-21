@@ -50,10 +50,8 @@ class User:
         self.rating += min(self.rating + 0.5, 10)
 
     def decrease_rating(self):
-        self.rating -= 2
-        if self.rating < 0:
-            self.rating = 0
-            self.is_blocked = True
+        self.rating = max(self.rating - 2, 0)
+        self.is_blocked = True
 
     def __str__(self):
         return f"{self.first_name} {self.last_name} " \
