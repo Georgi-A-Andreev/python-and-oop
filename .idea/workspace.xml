@@ -46,14 +46,14 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_advanced\exam_preparation\exam_prep_2" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_fundamentals\dictionaries_lab" />
       <recent name="C:\Users\User\PycharmProjects\github\softuni_courses\python_oop\exam_prep_2" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\exam_prep_1\project" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\exam_prep_1" />
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop" />
-      <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\testing_exercise\student\test" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_truck_driver.TestTruckDriver">
+  <component name="RunManager">
     <configuration name="asd" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -96,31 +96,31 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_truck_driver.TestTruckDriver" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_2/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver&quot;" />
+      <option name="_new_target" value="&quot;softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_2/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer&quot;" />
+      <option name="_new_target" value="&quot;softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -129,20 +129,20 @@
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_2/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/exam_prep_2/project/test/test_truck_driver.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test/test_truck_driver.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver" />
+        <item itemvalue="Python tests.Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver" />
         <item itemvalue="Python tests.Python tests in test_truck_driver.py" />
-        <item itemvalue="Python tests.Python tests for test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer" />
+        <item itemvalue="Python tests.Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver.test_drive_best_cargo_offer" />
         <item itemvalue="Python.concert_tracker_app" />
         <item itemvalue="Python.asd" />
       </list>
