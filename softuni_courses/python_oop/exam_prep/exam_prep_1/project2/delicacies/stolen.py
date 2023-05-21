@@ -1,4 +1,4 @@
-from project2.delicacies.delicacy import Delicacy
+from project.delicacies.delicacy import Delicacy
 
 
 class Stolen(Delicacy):

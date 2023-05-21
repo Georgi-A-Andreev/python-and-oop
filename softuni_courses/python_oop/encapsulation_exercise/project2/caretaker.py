@@ -1,4 +1,4 @@
-from project2.worker import Worker
+from project.worker import Worker
 
 
 class Caretaker(Worker):
