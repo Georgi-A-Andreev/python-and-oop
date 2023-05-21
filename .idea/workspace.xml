@@ -6,15 +6,12 @@
   <component name="ChangeListManager">
     <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test/test_truck_driver.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_2/project/test/test_truck_driver.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/managing_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/managing_app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/route.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/vehicles/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/base_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/vehicles/base_vehicle.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/cargo_van.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/vehicles/cargo_van.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/passenger_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project2/vehicles/passenger_car.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/managing_app.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/managing_app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/route.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/route.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/base_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/base_vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/cargo_van.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/cargo_van.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/passenger_car.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/passenger_car.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +61,7 @@
       <recent name="C:\Users\Usr\Documents\GitHub\softuni_courses\softuni_courses\python_oop\exam_prep_1\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test.TestRobot">
+  <component name="RunManager" selected="Python.managing_app">
     <configuration name="managing_app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,6 +83,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for project3.test.test.TestRobot" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project3/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;project3.test.test.TestRobot&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for project3.test.test.TestRobot.test_category_setter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="github" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project3/test" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;project3.test.test.TestRobot.test_category_setter&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -100,54 +125,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test.TestRobot" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="github" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestRobot&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test.TestRobot.test_category_setter" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="github" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/test" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test.TestRobot.test_category_setter&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <configuration name="Python tests in test.py" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="github" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/test" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project3/test" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/test/test.py&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project3/test/test.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Python tests for test.TestRobot" />
-        <item itemvalue="Python tests.Python tests in test.py" />
-        <item itemvalue="Python tests.Python tests for test.TestRobot.test_category_setter" />
         <item itemvalue="Python.managing_app" />
+        <item itemvalue="Python tests.Python tests for project3.test.test.TestRobot" />
+        <item itemvalue="Python tests.Python tests in test.py" />
+        <item itemvalue="Python tests.Python tests for project3.test.test.TestRobot.test_category_setter" />
         <item itemvalue="Python tests.Python tests for softuni_courses.python_oop.exam_prep.exam_prep_2.project.test.test_truck_driver.TestTruckDriver" />
       </list>
     </recent_temporary>

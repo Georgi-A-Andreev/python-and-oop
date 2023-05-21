@@ -12,7 +12,7 @@ class User:
 
     @first_name.setter
     def first_name(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("First name cannot be empty!")
         self.__first_name = value
 
@@ -22,7 +22,7 @@ class User:
 
     @last_name.setter
     def last_name(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("Last name cannot be empty!")
         self.__last_name = value
 
@@ -32,7 +32,7 @@ class User:
 
     @driving_license_number.setter
     def driving_license_number(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("Driving license number is required!")
         self.__driving_license_number = value
 
@@ -47,7 +47,7 @@ class User:
         self.__rating = value
 
     def increase_rating(self):
-        self.rating += min(self.rating + 0.5, 10)
+        self.rating = min(self.rating + 0.5, 10)
 
     def decrease_rating(self):
         self.rating = max(self.rating - 2, 0)

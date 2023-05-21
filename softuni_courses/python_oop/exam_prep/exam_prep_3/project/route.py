@@ -12,7 +12,7 @@ class Route:
 
     @start_point.setter
     def start_point(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("Start point cannot be empty!")
         self.__start_point = value
 
@@ -22,7 +22,7 @@ class Route:
 
     @end_point.setter
     def end_point(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("End point cannot be empty!")
         self.__end_point = value
 
@@ -32,7 +32,7 @@ class Route:
 
     @length.setter
     def length(self, value):
-        if value < 1:
+        if value < 1.00:
             raise ValueError("Length cannot be less than 1.00 kilometer!")
         self.__length = value
 

@@ -16,7 +16,7 @@ class BaseVehicle(ABC):
 
     @brand.setter
     def brand(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("Brand cannot be empty!")
         self.__brand = value
 
@@ -26,7 +26,7 @@ class BaseVehicle(ABC):
 
     @model.setter
     def model(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("Model cannot be empty!")
         self.__model = value
 
@@ -36,7 +36,7 @@ class BaseVehicle(ABC):
 
     @license_plate_number.setter
     def license_plate_number(self, value):
-        if value.strip() == '':
+        if value.strip() == '' or value == '':
             raise ValueError("License plate number is required!")
         self.__license_plate_number = value
 
