@@ -36,8 +36,12 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+<<<<<<< Updated upstream
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Usr/Documents/GitHub/softuni_courses/softuni_courses/python_advanced/exam_preparation&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.tabs&quot;
+=======
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/PycharmProjects/github/softuni_courses/python_advanced/exam_preparation&quot;
+>>>>>>> Stashed changes
   }
 }</component>
   <component name="RecentsManager">
