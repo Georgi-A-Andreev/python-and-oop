@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/user.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/base_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/softuni_courses/python_oop/exam_prep/exam_prep_3/project/vehicles/base_vehicle.py" afterDir="false" />
-    </list>
+    <list default="true" id="00d048e0-d03a-4a26-a9b7-3401b6a2f210" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
