@@ -30,3 +30,7 @@ class Meal(ABC):
     @abstractmethod
     def details(self):
         pass
+
+    @abstractmethod
+    def __str__(self):
+        pass
