@@ -1,11 +1,11 @@
 import inspect
 
-from project2.booths.open_booth import OpenBooth
-from project2.booths.private_booth import PrivateBooth
-from project2.delicacies.delicacy import Delicacy
-from project2.booths.booth import Booth
-from project2.delicacies.gingerbread import Gingerbread
-from project2.delicacies.stolen import Stolen
+from project.booths.open_booth import OpenBooth
+from project.booths.private_booth import PrivateBooth
+from project.delicacies.delicacy import Delicacy
+from project.booths.booth import Booth
+from project.delicacies.gingerbread import Gingerbread
+from project.delicacies.stolen import Stolen
 
 
 class ChristmasPastryShopApp:

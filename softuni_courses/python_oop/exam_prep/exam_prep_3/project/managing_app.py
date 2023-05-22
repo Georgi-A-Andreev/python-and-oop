@@ -1,10 +1,10 @@
 from typing import List
 
-from project2.route import Route
-from project2.user import User
-from project2.vehicles.base_vehicle import BaseVehicle
-from project2.vehicles.cargo_van import CargoVan
-from project2.vehicles.passenger_car import PassengerCar
+from project.route import Route
+from project.user import User
+from project.vehicles.base_vehicle import BaseVehicle
+from project.vehicles.cargo_van import CargoVan
+from project.vehicles.passenger_car import PassengerCar
 
 
 class ManagingApp:

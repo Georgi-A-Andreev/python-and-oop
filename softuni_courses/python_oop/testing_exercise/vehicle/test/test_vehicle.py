@@ -1,5 +1,5 @@
 import unittest
-from project2.vehicle import Vehicle
+from project.vehicle import Vehicle
 
 
 class TestVehicle(unittest.TestCase):

@@ -1,5 +1,5 @@
-from project2.food import Food
-from project2.drink import Drink
+from project.food import Food
+from project.drink import Drink
 
 
 class ProductRepository:

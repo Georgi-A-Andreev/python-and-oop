@@ -1,4 +1,4 @@
-from project.tennis_player import TennisPlayer
+from project3.tennis_player import TennisPlayer
 import unittest
 
 
