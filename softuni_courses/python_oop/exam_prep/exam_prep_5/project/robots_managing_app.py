@@ -1,11 +1,11 @@
 from typing import List
 
-from project.robots.base_robot import BaseRobot
-from project.robots.female_robot import FemaleRobot
-from project.robots.male_robot import MaleRobot
-from project.services.base_service import BaseService
-from project.services.main_service import MainService
-from project.services.secondary_service import SecondaryService
+from project2.robots.base_robot import BaseRobot
+from project2.robots.female_robot import FemaleRobot
+from project2.robots.male_robot import MaleRobot
+from project2.services.base_service import BaseService
+from project2.services.main_service import MainService
+from project2.services.secondary_service import SecondaryService
 
 
 class RobotsManagingApp:

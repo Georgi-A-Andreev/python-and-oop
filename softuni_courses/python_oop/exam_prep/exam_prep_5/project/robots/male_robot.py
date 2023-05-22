@@ -1,4 +1,4 @@
-from project.robots.base_robot import BaseRobot
+from project2.robots.base_robot import BaseRobot
 
 
 class MaleRobot(BaseRobot):

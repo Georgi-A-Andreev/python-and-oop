@@ -1,4 +1,4 @@
-from project.meals.meal import Meal
+from project2.meals.meal import Meal
 
 
 class MainDish(Meal):

@@ -1,7 +1,7 @@
-from project.client import Client
-from project.meals.dessert import Dessert
-from project.meals.main_dish import MainDish
-from project.meals.starter import Starter
+from project2.client import Client
+from project2.meals.dessert import Dessert
+from project2.meals.main_dish import MainDish
+from project2.meals.starter import Starter
 
 
 class FoodOrdersApp:

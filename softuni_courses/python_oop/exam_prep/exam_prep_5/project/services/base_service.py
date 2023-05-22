@@ -1,7 +1,7 @@
 from abc import ABC, abstractmethod
 from typing import List
 
-from project.robots.base_robot import BaseRobot
+from project2.robots.base_robot import BaseRobot
 
 
 class BaseService(ABC):
