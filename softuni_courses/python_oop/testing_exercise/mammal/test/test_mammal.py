@@ -1,4 +1,4 @@
-from project.mammal import Mammal
+from project2.mammal import Mammal
 import unittest
 
 

@@ -1,4 +1,4 @@
-from project.food import Food
+from project2.food import Food
 
 
 class Fruit(Food):
