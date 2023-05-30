@@ -18,6 +18,6 @@ for i in items:
     bought_items_price.append(price)
 
 print(' '.join(f'{x * 1.4:.2f}' for x in bought_items_price))
-print(f'Profit: {sum(bought_items_price) * 1.4 - budget_total}')
+print(f'Profit: {sum(bought_items_price) * 0.4:.2f}')
 
 print('Hello, France!') if sum(bought_items_price) * 1.4 + budget >= 150 else print("Not enough money.")
