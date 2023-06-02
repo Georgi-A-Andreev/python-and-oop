@@ -17,6 +17,3 @@ def my_f(n1):
 n = input().split(", ")
 
 my_f(n)
-
-
-
