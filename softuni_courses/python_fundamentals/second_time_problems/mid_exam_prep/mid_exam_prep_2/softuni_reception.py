@@ -17,8 +17,5 @@ while True:
     if counter % 4 == 0:
         counter += 1
 
-
-
-
 print(f'Time needed: {counter}h.')
 
