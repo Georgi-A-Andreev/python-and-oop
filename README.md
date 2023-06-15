@@ -1,1 +1,1 @@
-posting here homeworks and exam preparations for softuni courses
+All the problem i solve during SoftUni courses.
