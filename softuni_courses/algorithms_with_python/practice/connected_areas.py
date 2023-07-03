@@ -29,7 +29,5 @@ for row in range(rows):
             areas[(row, col)] = result
 
 print(f'Total areas found: {len(areas)}')
-counter = 1
-for k, v in sorted(areas.items(), key=lambda x: -x[1]):
-    print(f'Area #{counter} at {k}, size: {v}')
-    counter += 1
+for p, (k, v) in enumerate(sorted(areas.items(), key=lambda x: -x[1])):
+    print(f'Area #{p + 1} at {k}, size: {v}')
