@@ -1,0 +1,1 @@
+print('dasdasd'.split('55'))
