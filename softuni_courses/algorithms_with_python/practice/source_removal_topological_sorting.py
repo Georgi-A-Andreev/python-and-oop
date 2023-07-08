@@ -44,6 +44,7 @@ while dependencies:
     result = find_node_to_remove(dependencies, graph)
     if result is None:
         has_cycle = True
+        break
     end_result.append(result)
 
 if has_cycle:
