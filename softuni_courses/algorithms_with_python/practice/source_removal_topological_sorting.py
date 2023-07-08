@@ -13,7 +13,7 @@ x = int(input())
 
 graph = {}
 dependencies = {}
-result = []
+end_result = []
 
 for line in range(x):
     nodes = input()
@@ -32,9 +32,21 @@ get_dependencies(graph, dependencies)
 def find_node_to_remove(dependencies, graph):
     for k, v in dependencies.items():
         if v == 0:
+            dependencies.pop(k)
             for el in graph[k]:
                 dependencies[el] -= 1
+            return k
+    return None
 
 
+has_cycle = False
 while dependencies:
-    find_node_to_remove(dependencies, graph)
+    result = find_node_to_remove(dependencies, graph)
+    if result is None:
+        has_cycle = True
+    end_result.append(result)
+
+if has_cycle:
+    print('Invalid topological sorting')
+else:
+    print(f'Topological sorting: {", ".join(end_result)}')
