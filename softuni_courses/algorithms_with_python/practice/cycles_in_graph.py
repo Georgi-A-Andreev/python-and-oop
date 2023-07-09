@@ -8,9 +8,17 @@ def find_dependencies(dependencies, vectors):
         dependencies[destination] += 1
 
 
+def find_node_to_remove(dependencies):
+    for k, v in dependencies.items():
+        if v == 0:
+            return k
+    return None
+
+
 cycle = False
 vectors = []
 dependencies = {}
+
 while True:
     vector = input()
     if vector == 'End':
@@ -18,14 +26,6 @@ while True:
     vectors.append(vector.split('-'))
 
 find_dependencies(dependencies, vectors)
-
-
-def find_node_to_remove(dependencies):
-    for k, v in dependencies.items():
-        if v == 0:
-            return k
-    return None
-
 
 while dependencies:
     node = find_node_to_remove(dependencies)
