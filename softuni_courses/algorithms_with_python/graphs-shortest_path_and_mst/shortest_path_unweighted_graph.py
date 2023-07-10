@@ -5,7 +5,6 @@ edges_c = int(input())
 
 nodes = []
 [nodes.append([]) for _ in range(nodes_c + 1)]
-edges = []
 
 for _ in range(edges_c):
     s, d = [int(x) for x in input().split()]
