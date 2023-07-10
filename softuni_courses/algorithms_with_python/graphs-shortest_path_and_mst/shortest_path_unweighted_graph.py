@@ -33,11 +33,11 @@ while queue:
         queue.append(child)
         parent[child] = node
 
-result = deque([destination])
+result = deque()
 node = destination
-while parent[node] is not None:
-    node = parent[node]
+while node is not None:
     result.appendleft(node)
+    node = parent[node]
 
 
 print(f'Shortest path length is: {len(result) - 1}')
