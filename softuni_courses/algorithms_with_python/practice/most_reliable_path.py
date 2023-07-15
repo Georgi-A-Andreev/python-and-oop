@@ -29,24 +29,31 @@ for _ in range(edges):
 
 start = int(input())
 end = int(input())
-distance[start] = 0
+distance[start] = 100
 
 que = PriorityQueue()
-que.put((100, start))
+que.put((-100, start))
 
-while que:
-    node = que.get()
+while not que.empty():
+    max_distance, node = que.get()
     if node == end:
         break
 
-    for child, weight in graph[node]:
-        que.put(child)
-        if distance[child] < weight:
-            distance[child] = weight
+    for edge in graph[node]:
+        child = edge.second if edge.first == node else edge.first
+        new_distance = -max_distance * edge.weight / 100
+        if new_distance > distance[child]:
+            distance[child] = new_distance
             parent[child] = node
+            que.put((-new_distance, child))
+
 
 path = deque()
-reliability = []
 
-print(parent)
-print(distance)
+print(f'Most reliable path reliability: {distance[end]:.2f}%')
+node = end
+while node is not None:
+    path.appendleft(node)
+    node = parent[node]
+
+print(*path, sep=' -> ')
