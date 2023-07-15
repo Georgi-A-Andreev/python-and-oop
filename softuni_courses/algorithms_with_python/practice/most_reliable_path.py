@@ -1,5 +1,4 @@
 from collections import deque
-from functools import reduce
 from queue import PriorityQueue
 
 
@@ -8,9 +7,6 @@ class Edge:
         self.first = first
         self.second = second
         self.weight = weight
-
-    def __lt__(self, other):
-        return self.weight > other.weight
 
 
 nodes = int(input())
