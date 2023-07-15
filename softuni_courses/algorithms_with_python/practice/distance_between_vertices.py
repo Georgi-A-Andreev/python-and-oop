@@ -29,6 +29,14 @@ for _ in range(pairs):
             visited.add(child)
             parent[child] = node
 
+    if end not in parent:
+        print(f'{{{start}, {end}}} -> -1')
+        continue
+
+    counter = -1
     node = end
     while node is not None:
+        node = parent[node]
+        counter += 1
 
+    print(f'{{{start}, {end}}} -> {counter}')
