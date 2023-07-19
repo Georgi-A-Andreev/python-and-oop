@@ -4,12 +4,10 @@ graph = {}
 
 while True:
     text = input()
-
     if text == 'End':
         break
 
     source, destination = text.split(' ->')
-
     graph[source] = destination.split()
 
 dependencies = {}
