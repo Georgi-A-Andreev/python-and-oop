@@ -19,9 +19,20 @@ for idx in range(1, rows):
         else:
             dp[idx][idx2] = max(dp[idx - 1][idx2], dp[idx][idx2 - 1])
 
-for i in range(cols - 1, -1, -1):
-    if dp[rows - 1][i] != dp[rows - 1][i - 1]:
-        path.appendleft(seq_1[i])
+row = rows - 1
+col = cols - 1
+
+while row > 0 and col > 0:
+    if seq_1[row - 1] == seq_2[col - 1]:
+        path.appendleft(seq_1[row - 1])
+        row -= 1
+        col -= 1
+
+    elif dp[row][col - 1] < dp[row - 1][col]:
+        row -= 1
+    else:
+        col -= 1
+
 
 print(*path, sep=' ')
 print(dp[rows - 1][cols - 1])
