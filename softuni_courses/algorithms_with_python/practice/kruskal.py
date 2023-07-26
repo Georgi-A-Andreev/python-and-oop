@@ -1,28 +1,35 @@
-from queue import PriorityQueue
-
-
 class Edge:
     def __init__(self, first, second, weight):
-        self.weight = weight
-        self.second = second
         self.first = first
+        self.second = second
+        self.weight = weight
 
-    def __gt__(self, other):
-        return self.weight > other.weight
+
+def find_root(node, prev):
+    while node != prev[node]:
+        node = prev[node]
+    return node
 
 
-edges = int(input())
-graph = PriorityQueue()
+edges_count = int(input())
+max_node = float('-inf')
+edges = []
 
-for _ in range(edges):
+for _ in range(edges_count):
     first, second, weight = [int(x) for x in input().split(', ')]
-    graph.put(Edge(first, second, weight))
+    edges.append(Edge(first, second, weight))
+    max_node = max(first, second, max_node)
 
-forest = set()
-while not graph.empty():
-    edge = graph.get()
-    if edge.first in forest and edge.second in forest:
-        continue
-    forest.add(edge.first)
-    forest.add(edge.second)
+prev = [num for num in range(max_node + 1)]
+forest = []
+
+
+for edge in sorted(edges, key=lambda x: x.weight):
+    first_node_root = find_root(edge.first, prev)
+    second_node_root = find_root(edge.second, prev)
+    if first_node_root != second_node_root:
+        prev[first_node_root] = second_node_root
+        forest.append(edge)
+
+for edge in forest:
     print(f'{edge.first} - {edge.second}')
