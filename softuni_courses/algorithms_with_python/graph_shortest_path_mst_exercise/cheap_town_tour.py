@@ -4,9 +4,6 @@ class Edge:
         self.second = second
         self.weight = weight
 
-    def __gt__(self, other):
-        return self.weight > other.weight
-
 
 nodes = int(input())
 edges = int(input())
