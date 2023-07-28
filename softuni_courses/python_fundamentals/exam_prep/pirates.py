@@ -45,3 +45,4 @@ if targets:
         print(f"{k} -> Population: {v[0]} citizens, Gold: {v[1]} kg")
 else:
     print("Ahoy, Captain! All targets have been plundered and destroyed!")
+
