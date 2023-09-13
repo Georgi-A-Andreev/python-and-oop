@@ -47,3 +47,8 @@ ALTER COLUMN hiring_date SET NOT NULL;
 
 ALTER TABLE employees
 ALTER COLUMN middle_name TYPE VARCHAR(100)
+
+-- problem 7
+
+TRUNCATE TABLE issues
+
