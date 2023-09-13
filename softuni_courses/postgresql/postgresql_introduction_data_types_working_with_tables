@@ -27,3 +27,12 @@ CREATE TABLE issues(
 	"start" TIMESTAMP
 );
 
+-- problem 3
+SELECT *
+  FROM employees
+
+-- problem 4
+
+ALTER TABLE employees
+ADD COLUMN middle_name VARCHAR(50)
+
