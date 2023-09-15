@@ -97,4 +97,8 @@ VALUES
 ('Norbert',	'FEWB', 'Testing', 3265.500, 'norbert@minion.com', true, 'sad'),
 ('Donny', 'L', 'Make a Map', 8.452, 'donny@minion.com', true, 'happy');
 
+-- problem 14
+
+SELECT name, task, email, banana
+  FROM minions_info
 
