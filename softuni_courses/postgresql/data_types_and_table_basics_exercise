@@ -102,3 +102,11 @@ VALUES
 SELECT name, task, email, banana
   FROM minions_info
 
+-- problem 15
+
+TRUNCATE TABLE minions_info
+
+-- problem 16
+
+DROP TABLE minions_info
+
