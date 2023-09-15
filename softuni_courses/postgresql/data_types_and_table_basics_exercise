@@ -22,3 +22,8 @@ ADD COLUMN code CHAR(4),
 ADD COLUMN task TEXT,
 ADD COLUMN salary NUMERIC(8,3)
 
+-- problem 4
+
+ALTER TABLE minions_info
+RENAME COLUMN salary TO banana
+
