@@ -68,3 +68,8 @@ ALTER COLUMN task TYPE VARCHAR(150)
 ALTER TABLE minions_info
 ALTER COLUMN equipped
 DROP NOT NULL
+
+-- problem 11
+
+ALTER TABLE minions_info
+DROP COLUMN age
