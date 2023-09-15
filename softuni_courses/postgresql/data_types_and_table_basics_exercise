@@ -1,0 +1,16 @@
+problem 0
+
+CREATE DATABASE minions_db
+
+problem 1
+
+CREATE TABLE minions(
+	id SERIAL PRIMARY KEY,
+	name VARCHAR(30),
+	age INTEGER
+)
+
+problem 2
+
+ALTER TABLE minions
+RENAME TO minions_info
