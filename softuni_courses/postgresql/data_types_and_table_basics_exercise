@@ -51,3 +51,11 @@ ALTER TABLE minions_info
 ALTER COLUMN age SET DEFAULT 0,
 ALTER COLUMN "name" SET DEFAULT '',
 ALTER COLUMN "code" SET DEFAULT ''
+
+-- problem 8
+
+ALTER TABLE minions_info
+ADD CONSTRAINT unique_containt UNIQUE (id, email),
+ADD CONSTRAINT banana_check CHECK (banana > 0)
+
+
