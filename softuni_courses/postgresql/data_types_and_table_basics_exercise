@@ -1,8 +1,8 @@
-problem 0
+-- problem 0
 
 CREATE DATABASE minions_db
 
-problem 1
+-- problem 1
 
 CREATE TABLE minions(
 	id SERIAL PRIMARY KEY,
@@ -10,7 +10,15 @@ CREATE TABLE minions(
 	age INTEGER
 )
 
-problem 2
+-- problem 2
 
 ALTER TABLE minions
 RENAME TO minions_info
+
+-- problem 3
+
+ALTER TABLE minions_info
+ADD COLUMN code CHAR(4),
+ADD COLUMN task TEXT,
+ADD COLUMN salary NUMERIC(8,3)
+
