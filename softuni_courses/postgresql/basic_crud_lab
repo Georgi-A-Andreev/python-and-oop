@@ -49,3 +49,12 @@ DELETE FROM employees
 WHERE department_id BETWEEN 1 AND 2;
 SELECT * FROM employees
 ORDER BY id;
+
+-- problem 7
+
+CREATE VIEW top_paid
+AS
+SELECT * FROM employees
+ORDER BY salary DESC
+LIMIT 1;
+SELECT * FROM top_paid
