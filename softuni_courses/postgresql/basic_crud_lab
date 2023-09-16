@@ -37,3 +37,8 @@ SELECT * FROM employees
 
 -- problem 5
 
+UPDATE employees
+SET salary = salary + 100
+WHERE job_title LIKE 'Manager';
+SELECT * FROM employees
+WHERE job_title LIKE 'Manager';
