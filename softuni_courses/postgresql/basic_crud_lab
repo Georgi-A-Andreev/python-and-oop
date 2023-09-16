@@ -1,0 +1,8 @@
+-- problem 1
+
+SELECT
+ 	   id,
+	   CONCAT(first_name, ' ', last_name) as "Full name",
+	   job_title as "Job Title"
+  FROM
+       employees;
