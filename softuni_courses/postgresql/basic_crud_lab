@@ -42,3 +42,10 @@ SET salary = salary + 100
 WHERE job_title LIKE 'Manager';
 SELECT * FROM employees
 WHERE job_title LIKE 'Manager';
+
+-- problem 6
+
+DELETE FROM employees
+WHERE department_id BETWEEN 1 AND 2;
+SELECT * FROM employees
+ORDER BY id;
