@@ -16,7 +16,7 @@ while chocs and cups:
 
     if ch == cu:
         chocolates += 1
-        if chocs == 5:
+        if chocolates == 5:
             break
         continue
 
