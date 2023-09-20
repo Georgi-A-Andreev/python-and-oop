@@ -10,3 +10,10 @@ SELECT CONCAT(name, ' ', state) AS "Cities Information",
 		area AS "Area (km2)"
 FROM cities
 ORDER BY id
+
+-- problem 3
+
+SELECT DISTINCT(name),
+		area AS "Area (km2)"
+FROM cities
+ORDER BY name DESC
