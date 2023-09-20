@@ -114,4 +114,42 @@ VALUES
 	('Shipping and Receiving', 85),
 	('Executive', 109)
 
+-- problem 15
+
+CREATE TABLE IF NOT EXISTS company_chart
+AS
+SELECT
+		CONCAT(first_name, ' ', last_name) AS "Full Name",
+		job_title AS "Job Title",
+		department_id AS "Department ID",
+		manager_id AS "Manager ID"
+FROM employees
+
+-- problem 16
+
+UPDATE projects
+SET end_date = start_date + INTERVAL '5 months  '
+WHERE end_date IS NULL
+
+-- problem 17
+
+UPDATE employees
+SET job_title = CONCAT('Senior', ' ', job_title),
+salary = salary + 1500
+WHERE hire_date BETWEEN '1998-1-1' AND '2000-1-5'
+
+-- problem 18
+
+DELETE FROM addresses
+WHERE city_id IN (5, 17, 20, 30)
+
+-- problem 19
+select * from company_chart
+
+CREATE VIEW view_company_chart
+AS
+SELECT "Full Name",
+		"Job Title"
+FROM company_chart
+WHERE "Manager ID" = 184;
 
