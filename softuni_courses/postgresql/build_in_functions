@@ -26,4 +26,12 @@ SELECT title,
 FROM books
 ORDER BY id
 
+-- problem 5
+
+SELECT first_name,
+		last_name,
+		EXTRACT(YEAR FROM born) AS year
+FROM authors
+
+
 
