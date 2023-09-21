@@ -33,5 +33,17 @@ SELECT first_name,
 		EXTRACT(YEAR FROM born) AS year
 FROM authors
 
+-- problem 6
+
+SELECT last_name AS "Last Name",
+ 		TO_CHAR(born, 'DD (Dy) Mon YYYY') AS "Date of Brith"
+
+FROM authors
+
+-- problem 7
+
+SELECT title
+FROM books
+WHERE title LIKE '%Harry Potter%'
 
 
