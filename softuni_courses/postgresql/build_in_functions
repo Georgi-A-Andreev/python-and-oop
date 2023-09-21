@@ -20,3 +20,10 @@ FROM triangles
 ORDER BY id
 
 -- problem 4
+
+SELECT title,
+		ROUND(cost, 3) AS modified_price
+FROM books
+ORDER BY id
+
+
