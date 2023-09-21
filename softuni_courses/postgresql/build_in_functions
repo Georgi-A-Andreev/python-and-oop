@@ -6,3 +6,11 @@ WHERE title LIKE 'The%'
 ORDER BY id
 
 -- PROBLEM 2
+
+SELECT REPLACE(title, 'The', '***') AS title
+FROM books
+WHERE title LIKE 'The%'
+ORDER BY id
+
+-- problem 3
+
