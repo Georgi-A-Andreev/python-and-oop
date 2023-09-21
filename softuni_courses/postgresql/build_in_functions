@@ -1,0 +1,8 @@
+-- PROBLEM 1
+
+SELECT title
+FROM books
+WHERE title LIKE 'The%'
+ORDER BY id
+
+-- PROBLEM 2
