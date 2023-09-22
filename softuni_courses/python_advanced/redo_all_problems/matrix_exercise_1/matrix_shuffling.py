@@ -9,7 +9,7 @@ while True:
         break
 
     command = command.split()
-    if command[0] != 'swap':
+    if command[0] != 'swap' or len(command) != 5:
         print('Invalid input!')
         continue
 
@@ -21,6 +21,4 @@ while True:
             matrix[row][col], matrix[row1][col1] = matrix[row1][col1], matrix[row][col]
             for el in matrix:
                 print(*el)
-                continue
-    else:
-        print('Invalid input!')
+
