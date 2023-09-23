@@ -49,3 +49,36 @@ FROM mountains
 
 -- problem 7
 
+SELECT capital,
+		TRANSLATE(capital, 'áãåçéíñóú', 'aaaceinou') AS translated_name
+FROM countries
+
+-- problem 8
+
+SELECT continent_name,
+		TRIM(continent_name) AS trim
+FROM continents
+
+-- problem 9
+
+SELECT continent_name,
+		TRIM(TRAILING continent_name) AS trim
+FROM continents
+
+-- problem 10
+
+SELECT LTRIM(peak_name, 'M') AS "Left Trim",
+		RTRIM(peak_name, 'm') AS "Right Trim"
+FROM peaks
+
+
+
+
+
+
+
+
+
+
+
+
