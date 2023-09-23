@@ -21,3 +21,31 @@ FROM
 	JOIN currencies as cu
 	ON co.currency_code = cu.currency_code
 ORDER BY "Country Information", Currencies
+
+-- problem 3
+
+ALTER TABLE countries
+ADD COLUMN capital_code CHAR(2);
+UPDATE countries
+SET capital_code = substring(capital FROM 1 FOR 2)
+
+-- problem 4
+
+SELECT SUBSTRING(description FROM 5)
+FROM currencies
+
+- problem 5
+
+SELECT (REGEXP_MATCHES("River Information", '[0-9]{1,4}'))[1] AS river_length
+FROM view_river_info
+WHERE "River Information" ~ '[0-9]{1,4}';
+
+-- problem 6
+
+SELECT
+	REPLACE(mountain_range, 'a', '@') AS replace_a,
+	REPLACE(mountain_range, 'A', '$') AS replace_A
+FROM mountains
+
+-- problem 7
+
