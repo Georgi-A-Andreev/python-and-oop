@@ -1,0 +1,23 @@
+-- problem 1
+
+CREATE VIEW view_river_info
+AS
+SELECT CONCAT('The river', ' ', river_name, ' ', 'flows into the', ' ', outflow, ' ', 'and is', ' ', "length", ' ', 'kilometers long.') AS "River Information"
+FROM rivers
+ORDER BY river_name
+
+-- problem 2
+
+CREATE VIEW view_continents_countries_currencies_details
+AS
+SELECT
+	CONCAT(TRIM(c.continent_name), ': ', c.continent_code) AS "Continent Details",
+	CONCAT(co.country_name, ' - ', co.capital, ' - ', area_in_sq_km, ' - ', 'km2') AS "Country Information",
+	CONCAT(cu.description, ' (', cu.currency_code, ')') AS Currencies
+FROM
+	continents as c
+	JOIN countries as co
+	ON co.continent_code = c.continent_code
+	JOIN currencies as cu
+	ON co.currency_code = cu.currency_code
+ORDER BY "Country Information", Currencies
