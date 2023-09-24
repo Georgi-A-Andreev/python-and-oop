@@ -158,4 +158,11 @@ SELECT EXTRACT(YEAR FROM booked_at) AS "YEAR",
 		CEILING(EXTRACT(SECOND FROM booked_at)) AS "SECOND"
 FROM bookings
 
+-- problem 24
+
+SELECT companion_full_name,
+		email
+FROM users
+WHERE companion_full_name ILIKE '%aNd%' AND email NOT ILIKE '%@gmail'
+
 
