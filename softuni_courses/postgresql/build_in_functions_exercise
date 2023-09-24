@@ -135,4 +135,11 @@ SELECT booked_for,
 FROM bookings
 WHERE apartment_id = 93;
 
+-- problem 19
+
+SELECT latitude,
+		ROUND(latitude, 2) AS round,
+		TRUNC(latitude, 2) AS trunc
+FROM apartments
+
 
