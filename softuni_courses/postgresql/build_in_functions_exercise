@@ -71,14 +71,58 @@ SELECT LTRIM(peak_name, 'M') AS "Left Trim",
 		RTRIM(peak_name, 'm') AS "Right Trim"
 FROM peaks
 
+-- problem 11
 
+SELECT CONCAT(m.mountain_range, ' ', p.peak_name) AS "Mountain Information",
+		CHAR_LENGTH(CONCAT(m.mountain_range, ' ', p.peak_name)) AS "Characters Length",
+		BIT_LENGTH(CONCAT(m.mountain_range, ' ', p.peak_name)) AS "Bits of a String"
+FROM
+	mountains AS m
+	JOIN peaks as p
+	ON m.id = p.mountain_id
 
+-- problem 12
 
+SELECT population,
+		LENGTH(CAST(population AS TEXT)) AS length
+FROM
+	countries
 
+-- problem 13
 
+SELECT
+	peak_name,
+	LEFT(peak_name, 4) AS "Positive Left",
+	CASE WHEN LENGTH(peak_name) > 4 THEN LEFT(peak_name, LENGTH(peak_name) - 4)
+	ELSE ''
+	END AS "Negative Left"
+FROM
+	peaks
 
+-- problem 14
 
+SELECT peak_name,
+		RIGHT(peak_name, 4) AS "Positive Right",
+		RIGHT(peak_name, -4) AS "Negative Right"
+FROM
+	peaks
 
+-- problem 15
 
+UPDATE countries
+SET iso_code = UPPER(LEFT(country_name, 3))
+WHERE iso_code IS NULL
 
+-- problem 16
+
+UPDATE countries
+SET country_code = LOWER(REVERSE(country_code))
+
+-- problem 17
+
+SELECT CONCAT(elevation, ' ', REPEAT('-', 3), REPEAT('>', 2), ' ', peak_name) AS "Elevation --->> Peak Name"
+FROM peaks
+WHERE elevation >= 4884
+
+-- problem 18
 
