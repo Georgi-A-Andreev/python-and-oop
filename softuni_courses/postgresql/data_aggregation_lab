@@ -39,3 +39,33 @@ GROUP BY department_id
 ORDER BY department_id
 
 -- problem 6
+
+SELECT department_id,
+	 	AVG(salary) AS avg_salary
+FROM employees
+GROUP BY department_id
+ORDER BY department_id
+
+-- problem 7
+
+SELECT department_id,
+		SUM(salary) AS "Total Salary"
+FROM employees
+GROUP BY department_id
+HAVING SUM(salary) < 4200
+ORDER BY department_id
+
+-- problem 8
+
+SELECT e.id,
+		e.first_name,
+		e.last_name,
+		e.salary,
+		e.department_id,
+		CASE
+			WHEN e.department_id > 3 THEN 'Other'
+			WHEN e.department_id <= 3 THEN d.name
+		END AS department_name
+FROM employees as e
+JOIN departments as d
+ON e.department_id = d.id
