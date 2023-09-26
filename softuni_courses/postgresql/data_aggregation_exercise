@@ -20,3 +20,58 @@ select * from wizard_deposits
 
 -- problem 4
 
+SELECT MIN(deposit_charge) AS "Minimum Deposit Charge"
+FROM wizard_deposits
+
+-- problem 5
+
+SELECT MAX(age) AS "Maximum Age"
+FROM wizard_deposits
+
+-- problem 6
+
+SELECT deposit_group
+		,sum(deposit_interest)
+FROM wizard_deposits
+GROUP BY deposit_group
+ORDER BY sum(deposit_interest) DESC
+
+-- problem 7
+
+SELECT magic_wand_creator,
+		MIN(magic_wand_size) AS "Minimum Wand Size"
+FROM wizard_deposits
+GROUP BY magic_wand_creator
+ORDER BY MIN(magic_wand_size)
+LIMIT 5
+
+-- problem 8
+
+SELECT deposit_group,
+		is_deposit_expired,
+		FLOOR(AVG(deposit_interest)) AS "Deposit Interest"
+FROM wizard_deposits
+WHERE deposit_start_date > '1985-01-01'
+GROUP BY deposit_group, is_deposit_expired
+ORDER BY deposit_group DESC, is_deposit_expired
+
+
+
+
+
+
+
+SELECT * FROM wizard_deposits
+
+
+
+
+
+
+
+
+
+
+
+
+
