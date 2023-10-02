@@ -74,6 +74,91 @@ JOIN customers as c
 ON b.customer_id = c.customer_id
 WHERE c.last_name = 'Hahn'
 
+-- problem 9
+
+SELECT a.name,
+		SUM(b.booked_for) AS sum
+FROM apartments AS a
+JOIN bookings AS b
+ON b.apartment_id = a.apartment_id
+GROUP BY a.name
+ORDER BY a.name
+
+-- problem 10
+
+SELECT a.country,
+		COUNT(b.booking_id) AS bookings_count
+FROM apartments AS a
+JOIN bookings AS b
+ON a.apartment_Id = b.apartment_id
+WHERE b.booked_at > '2021-05-18 07:52:09.904+03' AND b.booked_at < '2021-09-17 19:48:02.147+03'
+GROUP BY a.country
+ORDER BY COUNT(b.booking_id) DESC
+
+-- problem 11
+
+SELECT c.country_code,
+		m.mountain_range,
+		p.peak_name,
+		p.elevation
+FROM countries AS c
+JOIN mountains_countries AS mc
+ON c.country_code = mc.country_code
+JOIN mountains as m
+ON m.id = mc.mountain_id
+JOIN peaks AS p
+ON p.mountain_id = m.id
+WHERE c.country_code = 'BG' AND p.elevation > 2835
+ORDER BY p.elevation DESC
+
+problem 12
+
+SELECT c.country_code,
+		COUNT(mc.mountain_id) AS mountain_range_count
+FROM countries AS c
+JOIN mountains_countries as mc
+ON c.country_code = mc.country_code
+WHERE c.country_code IN ('BG', 'RU', 'US')
+GROUP BY c.country_code
+ORDER BY mountain_range_count DESC
+
+-- problem 13
+
+SELECT c.country_name,
+		r.river_name
+FROM countries AS c
+LEFT JOIN countries_rivers AS cr
+ON cr.country_code = c.country_code
+LEFT JOIN rivers AS r
+ON cr.river_id = r.id
+JOIN continents as co
+ON co.continent_code = c.continent_code
+WHERE co.continent_name = 'Africa'
+ORDER BY c.country_name
+LIMIT 5
+
+-- problem 14
+
+SELECT AVG(c.area_in_sq_km) AS min_average_area
+FROM countries AS c
+JOIN continents AS co
+ON c.continent_code = co.continent_code
+GROUP BY co.continent_name
+ORDER BY min_average_area
+LIMIT 1
+
+-- problem 15
+
+SELECT COUNT(*)
+FROM countries as c
+LEFT JOIN mountains_countries as mc
+ON mc.country_code = c.country_code
+LEFT JOIN mountains as m
+ON mc.mountain_id = m.id
+WHERE m.mountain_range IS NULL
+
+
+
 
 
 
