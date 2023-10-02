@@ -42,6 +42,31 @@ FULL JOIN apartments AS a
 ON b.booking_id = a.booking_id
 ORDER BY b.booking_id, apartment_owner, customer_name
 
+-- problem 6
+
+SELECT b.booking_id,
+		b.apartment_id,
+		c.companion_full_name
+FROM bookings AS b
+JOIN customers AS c
+ON b.customer_id = c.customer_id
+WHERE b.apartment_id IS NULL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
