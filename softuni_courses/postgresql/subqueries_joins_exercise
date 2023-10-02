@@ -66,8 +66,13 @@ JOIN customers AS c
 ON b.customer_id = c.customer_id
 WHERE c.job_type = 'Lead'
 
+-- problem 8
 
-
+SELECT COUNT(*) AS count
+FROM bookings AS b
+JOIN customers as c
+ON b.customer_id = c.customer_id
+WHERE c.last_name = 'Hahn'
 
 
 
