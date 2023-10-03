@@ -97,29 +97,27 @@ ORDER BY COUNT(b.booking_id) DESC
 
 -- problem 11
 
-SELECT c.country_code,
+SELECT mc.country_code,
 		m.mountain_range,
 		p.peak_name,
 		p.elevation
-FROM countries AS c
-JOIN mountains_countries AS mc
-ON c.country_code = mc.country_code
+FROM mountains_countries AS mc
 JOIN mountains as m
 ON m.id = mc.mountain_id
 JOIN peaks AS p
 ON p.mountain_id = m.id
-WHERE c.country_code = 'BG' AND p.elevation > 2835
+WHERE mc.country_code = 'BG' AND p.elevation > 2835
 ORDER BY p.elevation DESC
 
-problem 12
+-- problem 12
 
-SELECT c.country_code,
+SELECT mc.country_code,
 		COUNT(mc.mountain_id) AS mountain_range_count
-FROM countries AS c
-JOIN mountains_countries as mc
-ON c.country_code = mc.country_code
-WHERE c.country_code IN ('BG', 'RU', 'US')
-GROUP BY c.country_code
+
+FROM mountains_countries as mc
+
+WHERE mc.country_code IN ('BG', 'RU', 'US')
+GROUP BY mc.country_code
 ORDER BY mountain_range_count DESC
 
 -- problem 13
@@ -131,19 +129,16 @@ LEFT JOIN countries_rivers AS cr
 ON cr.country_code = c.country_code
 LEFT JOIN rivers AS r
 ON cr.river_id = r.id
-JOIN continents as co
-ON co.continent_code = c.continent_code
-WHERE co.continent_name = 'Africa'
+WHERE c.continent_code = 'AF'
 ORDER BY c.country_name
 LIMIT 5
 
+select * from countries
 -- problem 14
 
 SELECT AVG(c.area_in_sq_km) AS min_average_area
 FROM countries AS c
-JOIN continents AS co
-ON c.continent_code = co.continent_code
-GROUP BY co.continent_name
+GROUP BY c.continent_code
 ORDER BY min_average_area
 LIMIT 1
 
@@ -153,9 +148,10 @@ SELECT COUNT(*)
 FROM countries as c
 LEFT JOIN mountains_countries as mc
 ON mc.country_code = c.country_code
-LEFT JOIN mountains as m
-ON mc.mountain_id = m.id
-WHERE m.mountain_range IS NULL
+
+WHERE mc.mountain_id IS NULL
+
+select * from mountains_countries
 
 
 
