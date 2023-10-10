@@ -81,7 +81,6 @@ $$
 		UPDATE accounts
 		SET balance = balance + money_amount
 		WHERE id = account_id;
-		COMMIT;
 	END;
 $$
 LANGUAGE plpgsql;
@@ -99,7 +98,32 @@ BEGIN
 	SET balance = balance - money_amount
 	WHERE id = account_id;
 	END IF;
-	COMMIT;
 END;
 $$
 LANGUAGE plpgsql;
+
+
+-- problem 10
+
+CREATE PROCEDURE sp_transfer_money (sender_id INT, receiver_id INT, amount NUMERIC(10,4))
+AS
+$$
+DECLARE current NUMERIC;
+BEGIN
+	current = (SELECT balance FROM accounts WHERE id = sender_id);
+	CALL sp_withdraw_money(sender_id, amount);
+	IF (SELECT balance FROM accounts WHERE id = sender_id) = current THEN ROLLBACK;
+	ELSE CALL sp_deposit_money(receiver_id, amount);
+	END IF;
+END;
+$$
+LANGUAGE plpgsql;
+
+
+-- problem 11
+
+
+
+
+
+
