@@ -41,3 +41,18 @@ $$
 LANGUAGE plpgsql;
 
 
+-- problem 4
+
+CREATE FUNCTION fn_is_game_over (is_game_over BOOLEAN)
+RETURNS TABLE (name VARCHAR(50), game_type_id INT, is_finished BOOLEAN)
+AS
+$$
+	BEGIN
+		RETURN QUERY SELECT name, game_type_id, is_finished
+				FROM games
+				WHERE is_finished = is_game_over;
+	END;
+$$
+LANGUAGE plpgsql;
+
+
