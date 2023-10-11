@@ -143,14 +143,87 @@ GROUP BY o.name
 ORDER BY count_of_animals DESC, owner
 LIMIT 5
 
+-- problem 8
+
+SELECT CONCAT(o.name, ' - ', a.name) AS "Owners - Animals",
+		o.phone_number AS "Phone Number",
+		ac.cage_id AS "Cage ID"
+FROM owners AS o
+JOIN animals AS a
+ON o.id = a.owner_id
+JOIN animal_types AS at
+ON at.id = a.animal_type_id
+JOIN animals_cages AS ac
+ON ac.animal_id = a.id
+WHERE at.animal_type = 'Mammals'
+ORDER BY o.name, a.name DESC
 
 
+-- problem 9
+
+SELECT v.name,
+		v.phone_number,
+	TRIM(', ' FROM TRIM(TRIM('Sofia' FROM TRIM(v.address)))) AS address
+FROM volunteers AS v
+JOIN volunteers_departments AS vd
+ON vd.id = v.department_id
+WHERE vd.department_name = 'Education program assistant'
+AND v.address LIKE '%Sofia%'
+ORDER BY v.name
+
+-- problem 10
+
+SELECT a.name,
+		EXTRACT(YEAR FROM a.birthdate) AS birth_year,
+		at.animal_type
+FROM animals AS a
+JOIN animal_types AS at
+ON a.animal_type_id = at.id
+WHERE a.birthdate > '01/01/2017' AND at.animal_type NOT LIKE 'Birds' AND a.owner_id IS NULL
+ORDER BY a.name
+
+-- problem 11
+
+CREATE FUNCTION fn_get_volunteers_count_from_department(searched_volunteers_department VARCHAR(30))
+RETURNS INT
+AS
+$$
+DECLARE total INT;
+BEGIN
+	 SELECT COUNT(*) INTO total
+				  	FROM volunteers AS v
+				  	JOIN volunteers_departments AS vd
+				  	ON vd.id = v.department_id
+				 	WHERE vd.department_name = searched_volunteers_department;
+	RETURN total;
+END;
+$$
+LANGUAGE plpgsql;
+
+-- problem 12
+
+CREATE PROCEDURE sp_animals_with_owners_or_not(IN animal_name VARCHAR(30), OUT ownerx2 VARCHAR)
+AS
+$$
+DECLARE owner INT DEFAULT NULL;
+BEGIN
+				SELECT owner_id INTO owner
+				FROM animals
+				WHERE name = animal_name;
+			IF owner IS NULL THEN ownerx2 := 'For adoption';
+			ELSE SELECT name INTO ownerx2
+					FROM owners
+					WHERE id = owner;
+			END IF;
+
+END;
+$$
+LANGUAGE plpgsql;
 
 
-
-
-
-
+CALL sp_animals_with_owners_or_not('Pumpkinseed Sunfish')
+CALL sp_animals_with_owners_or_not('Hippo')
+CALL sp_animals_with_owners_or_not('Brown bear')
 
 
 
