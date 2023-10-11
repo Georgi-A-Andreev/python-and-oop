@@ -104,9 +104,22 @@ WHERE owner_id IS NULL
 
 -- problem 4
 
+DELETE FROM volunteers
+WHERE department_id = 2;
 
+DELETE FROM volunteers_departments
+WHERE department_name = 'Education program assistant';
 
+-- problem 5
 
+SELECT name,
+	phone_number,
+	address,
+	animal_id,
+	department_id
+FROM
+	volunteers
+ORDER BY name, animal_id, department_id
 
 
 
