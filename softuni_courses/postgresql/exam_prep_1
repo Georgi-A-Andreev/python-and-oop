@@ -96,4 +96,17 @@ VALUES
 ('Stoyan Tomov',	'0898564100',	'Montana, 1 Bor str.',	18,	8),
 ('Boryana Mileva',	'0888112233',	NULL,	31,	5);
 
+-- problem 3
+
+UPDATE animals
+SET owner_id = 4
+WHERE owner_id IS NULL
+
+-- problem 4
+
+
+
+
+
+
 
