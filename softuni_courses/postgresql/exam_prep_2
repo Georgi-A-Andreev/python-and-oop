@@ -146,4 +146,120 @@ FROM
 	ORDER BY count_of_courses DESC, c.id) AS subqery
 WHERE count_of_courses <> 2;
 
+-- problem 8
+
+SELECT * FROM (
+	SELECT c.full_name,
+			COUNT(c.id) AS count_of_cars,
+				SUM(co.bill) AS total_sum
+	FROM clients AS c
+	JOIN courses AS co
+	ON c.id = co.client_id
+	WHERE c.full_name LIKE '_a%'
+	GROUP BY c.full_name
+	ORDER BY c.full_name
+) AS subquery
+WHERE count_of_cars > 1;
+
+-- probkem 9
+
+SELECT a.name,
+		CASE
+			WHEN EXTRACT(HOUR FROM co.start) BETWEEN 6 AND 20 THEN 'Day'
+			ELSE 'Night'
+		END AS day_time,
+		co.bill,
+		cl.full_name,
+		c.make,
+		c.model,
+		ca.name
+FROM courses AS co
+LEFT JOIN addresses AS a
+ON co.from_address_id = a.id
+LEFT JOIN cars AS c
+ON c.id = co.car_id
+LEFT JOIN categories AS ca
+ON ca.id = c.category_id
+LEFT JOIN clients AS cl
+ON cl.id = co.client_id
+
+-- problem 10
+
+CREATE FUNCTION fn_courses_by_client(phone_num VARCHAR(20))
+RETURNS INT
+AS
+$$
+DECLARE result INT;
+BEGIN
+	SELECT COUNT(co.id) INTO result
+					   FROM clients AS c
+					  JOIN courses AS co
+					  ON co.client_id = c.id
+					   WHERE c.phone_number = phone_num
+					  GROUP BY c.id;
+			IF result IS NULL THEN RETURN 0;
+			ELSE RETURN result;
+			END IF;
+END;
+$$
+LANGUAGE plpgsql;
+
+-- problem 11
+CREATE TABLE search_results (
+    id SERIAL PRIMARY KEY,
+    address_name VARCHAR(50),
+    full_name VARCHAR(100),
+    level_of_bill VARCHAR(20),
+    make VARCHAR(30),
+    condition CHAR(1),
+    category_name VARCHAR(50)
+);
+
+CREATE PROCEDURE sp_courses_by_address(address_name VARCHAR(100))
+AS
+$$
+	BEGIN
+	TRUNCATE TABLE search_results;
+		INSERT INTO search_results(address_name, full_name, level_of_bill, make, condition, category_name)
+			SELECT a.name,
+					c.full_name,
+					CASE
+						WHEN co.bill <= 20 THEN 'Low'
+						WHEN co.bill <= 30 THEN 'Medium'
+						ELSE 'High'
+					END AS level_of_bill,
+					ca.make,
+					ca.condition,
+					cat.name
+			FROM addresses AS a
+			JOIN courses AS co
+			ON co.from_address_id = a.id
+			JOIN clients AS c
+			ON c.id = co.client_id
+			JOIN cars AS ca
+			ON ca.id = co.car_id
+			JOIN categories AS cat
+			ON cat.id = ca.category_id
+			WHERE a.name = address_name
+			ORDER BY ca.make, c.full_name;
+	END;
+$$
+LANGUAGE plpgsql;
+
+
+
+CALL sp_courses_by_address('700 Monterey Avenue')
+SELECT * FROM search_results;
+
+
+
+
+
+
+
+
+
+
+
+
 
