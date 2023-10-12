@@ -130,8 +130,20 @@ ON d.id = cd.driver_id
 WHERE c.mileage IS NOT NULL
 ORDER BY c.mileage DESC, d.first_name
 
+-- problem 7
 
-
-
+SELECT *
+FROM
+	(SELECT c.id,
+			c.make,
+			c.mileage,
+			COUNT(co.id) AS count_of_courses,
+			ROUND(AVG(co.bill), 2) AS average_bill
+	FROM cars AS c
+	LEFT JOIN courses as co
+	ON c.id = co.car_id
+	GROUP BY c.make, c.mileage, c.id
+	ORDER BY count_of_courses DESC, c.id) AS subqery
+WHERE count_of_courses <> 2;
 
 
