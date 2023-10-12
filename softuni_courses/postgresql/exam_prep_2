@@ -92,6 +92,46 @@ SELECT CONCAT(first_name, ' ', last_name) AS full_name,
 FROM drivers
 WHERE id BETWEEN 10 AND 20
 
+-- problem 3
+
+UPDATE cars
+SET condition = 'C'
+WHERE (mileage >= 800000 OR mileage IS NULL) AND (year <= 2010) AND (make <> 'Mercedes-Benz')
+
+-- problem 4
+
+DELETE FROM clients
+WHERE full_name IN (select c.full_name
+from clients as c
+LEFT JOIN courses as co
+ON c.id = co.client_id
+WHERE co.client_id IS NULL) AND LENGTH(full_name) > 3
+
+-- problem 5
+
+SELECT make,
+		model,
+			condition
+FROM cars
+ORDER BY id
+
+-- problem 6
+
+SELECT d.first_name,
+		d.last_name,
+		c.make,
+		c.model,
+			c.mileage
+FROM cars AS c
+JOIN cars_drivers AS cd
+ON c.id = cd.car_id
+JOIN drivers AS d
+ON d.id = cd.driver_id
+WHERE c.mileage IS NOT NULL
+ORDER BY c.mileage DESC, d.first_name
+
+
+
 
 
 
