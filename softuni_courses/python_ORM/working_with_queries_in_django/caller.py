@@ -6,7 +6,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
 
-from main_app.models import ArtworkGallery, Laptop, ChessPlayer
+from main_app.models import ArtworkGallery, Laptop, ChessPlayer, Meal
 
 
 def show_highest_rated_art():
@@ -88,5 +88,32 @@ def grand_chess_title_FM():
 def grand_chess_title_regular_player():
     ChessPlayer.objects.filter(rating__range=[0, 2199]).update(title="regular player")
 
+
+# problem 4
+
+def set_new_chefs():
+    Meal.objects.filter(meal_type="Breakfast").update(chef="Gordon Ramsay")
+    Meal.objects.filter(meal_type="Lunch").update(chef="Julia Child")
+    Meal.objects.filter(meal_type="Dinner").update(chef="Jamie Oliver")
+    Meal.objects.filter(meal_type="Snack").update(chef="Thomas Keller")
+
+
+def set_new_preparation_times():
+    Meal.objects.filter(meal_type="Breakfast").update(preparation_time="10 minutes")
+    Meal.objects.filter(meal_type="Lunch").update(preparation_time="12 minutes")
+    Meal.objects.filter(meal_type="Dinner").update(preparation_time="15 minutes")
+    Meal.objects.filter(meal_type="Snack").update(preparation_time="5 minutes")
+
+
+def update_low_calorie_meals():
+    Meal.objects.filter(meal_type__in=["Breakfast", "Dinner"]).update(calories=400)
+
+
+def update_high_calorie_meals():
+    Meal.objects.filter(meal_type__in=["Lunch", "Snack"]).update(calories=700)
+
+
+def delete_lunch_and_snack_meals():
+    Meal.objects.filter(meal_type__in=["Lunch", "Snack"]).delete()
 
 
