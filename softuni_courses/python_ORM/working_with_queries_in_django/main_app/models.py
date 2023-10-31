@@ -44,6 +44,9 @@ class Dungeon(models.Model):
     boss_health = models.PositiveIntegerField()
     reward = models.TextField()
 
+    def __str__(self):
+        return f"{self.name} is guarded by {self.boss_name} who has {self.boss_health} health points!"
+
 
 class Workout(models.Model):
     WORKOUT_TYPE_CHOICES = (
