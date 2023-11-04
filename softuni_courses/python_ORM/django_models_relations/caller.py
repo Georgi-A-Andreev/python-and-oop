@@ -6,7 +6,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
 
-from main_app.models import Author, Book, Artist, Song
+from main_app.models import Author, Book, Artist, Song, Review, Product
 
 
 def show_all_authors_with_their_books():
@@ -45,6 +45,27 @@ def remove_song_from_artist(artist_name: str, song_title: str):
 
     artist.songs.remove(song)
 
+
+def calculate_average_rating_for_product_by_name(product_name: str):
+    product = Product.objects.get(name=product_name)
+    reviews = product.reviews.all()
+
+    count = len(reviews)
+    total = sum(r.rating for r in reviews)
+
+    return total / count
+
+
+def get_reviews_with_high_ratings(threshold: int):
+    return Review.objects.filter(rating__gte=threshold)
+
+
+def get_products_with_no_reviews():
+    return Product.objects.filter(reviews__isnull=True).order_by('-name')
+
+
+def delete_products_without_reviews():
+    Product.objects.filter(reviews__isnull=True).delete()
 
 
 
