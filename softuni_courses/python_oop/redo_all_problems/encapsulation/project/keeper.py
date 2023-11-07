@@ -1,4 +1,4 @@
-from redo_all_problems.encapsulation.project.worker import Worker
+from project.worker import Worker
 
 
 class Keeper(Worker):
