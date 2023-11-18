@@ -7,7 +7,7 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
 
-from django.db.models import Q, Count, Avg
+from django.db.models import Q, Count, Avg, F
 from main_app.models import Director, Actor, Movie
 
 
@@ -50,3 +50,33 @@ def get_top_actor():
             f' movies average rating: {actor.avg_rating:.01f}')
 
 
+def get_actors_by_movies_count():
+    actors = Actor.objects.annotate(sum_movies=Count('movies_many')).order_by('-sum_movies', 'full_name')[:3]
+
+    if not actors or actors[0].sum_movies == 0:
+        return ''
+
+    return '\n'.join(f'{a.full_name}, participated in {a.sum_movies} movies'
+                     for a in actors)
+
+
+def get_top_rated_awarded_movie():
+    movies = Movie.objects.filter(is_awarded=True).order_by('-rating', 'title').first()
+    if not movies:
+        return ''
+    starring_actor = movies.starring_actor.full_name if movies.starring_actor else 'N/A'
+    cast = ', '.join([a.full_name for a in movies.actors.order_by('full_name')])
+
+    return (f"Top rated awarded movie: {movies.title}, rating: {movies.rating:.1f}."
+            f" Starring actor: {starring_actor}. "
+            f"Cast: {cast}.")
+
+
+def increase_rating():
+    movies = Movie.objects.filter(is_classic=True, rating__lt=10)
+
+    if not movies:
+        return f"No ratings increased."
+
+    update = movies.update(rating=F('rating') + 0.1)
+    return f"Rating increased for {update} movies."
