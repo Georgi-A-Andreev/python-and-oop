@@ -37,7 +37,7 @@ class Movie(models.Model):
     is_classic = models.BooleanField(default=False)
     is_awarded = models.BooleanField(default=False)
     last_updated = models.DateTimeField(auto_now=True)
-    director = models.ForeignKey(Director, on_delete=models.CASCADE, related_name='director_movie')
+    director = models.ForeignKey(Director, on_delete=models.CASCADE, related_name='movies')
     starring_actor = models.ForeignKey(Actor, on_delete=models.SET_NULL, blank=True, null=True,
-                                       related_name='actor_movie')
-    actors = models.ManyToManyField(Actor)
+                                       related_name='movies')
+    actors = models.ManyToManyField(Actor, related_name='movies_many')
