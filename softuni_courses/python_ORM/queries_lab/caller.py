@@ -1,5 +1,6 @@
 import os
 import django
+from django.db.models import Count, Sum
 
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
@@ -69,3 +70,27 @@ def add_records_to_database():
 # print()
 # print('All Available Food Products:')
 # print(Product.objects.available_products_in_category("Food"))
+
+def product_quantity_ordered():
+    products = (Product.objects.annotate(num_orders=Sum('order_product__quantity'))
+                .filter(num_orders__gte=1)
+                .order_by('-num_orders'))
+
+    return '\n'.join(
+        f'Quantity ordered of {p.name}: {p.num_orders}'
+        for p in products
+    )
+
+
+def ordered_products_per_customer():
+    orders = Order.objects.order_by('id')
+    result = []
+    for o in orders:
+        result.append(f'Order ID: {o.id}, Customer: {o.customer.username}')
+        for p in o.products.all():
+            result.append(f'- Product: {p.name}, Category: {p.category.name}')
+
+    return '\n'.join(result)
+
+#print(ordered_products_per_customer())
+

@@ -25,11 +25,11 @@ class Customer(models.Model):
 
 
 class Order(models.Model):
-    customer = models.ForeignKey(Customer, on_delete=models.CASCADE)
-    products = models.ManyToManyField(Product, through='OrderProduct')
+    customer = models.ForeignKey(Customer, on_delete=models.CASCADE, related_name='order')
+    products = models.ManyToManyField(Product, through='OrderProduct', related_name='order')
 
 
 class OrderProduct(models.Model):
-    order = models.ForeignKey(Order, on_delete=models.CASCADE)
-    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    order = models.ForeignKey(Order, on_delete=models.CASCADE, related_name='order_product')
+    product = models.ForeignKey(Product, on_delete=models.CASCADE, related_name='order_product')
     quantity = models.PositiveIntegerField()
