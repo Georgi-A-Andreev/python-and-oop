@@ -1,12 +1,13 @@
 import os
 import django
-from django.db.models import Count, Sum
 
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
-# Import your models
+
+from django.db.models import Count, Sum, F
+
 from main_app.models import Product, Category, Customer, Order, OrderProduct
 
 
@@ -104,4 +105,16 @@ def filter_products():
         f'{p.name}: {p.price}lv.'
         for p in products
     )
+
+
+def give_discount():
+    Product.objects.available_products().filter(price__gt=3).update(price=F('price') * 0.7)
+
+    products = Product.objects.available_products().order_by('-price', 'name')
+
+    return '\n'.join(
+        f'{p.name}: {p.price}lv.'
+        for p in products
+    )
+
 
