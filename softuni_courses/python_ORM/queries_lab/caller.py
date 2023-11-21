@@ -94,3 +94,14 @@ def ordered_products_per_customer():
 
 #print(ordered_products_per_customer())
 
+
+def filter_products():
+    products = (Product.objects.available_products().
+                filter(price__gt=3).
+                order_by('-price', 'name'))
+
+    return '\n'.join(
+        f'{p.name}: {p.price}lv.'
+        for p in products
+    )
+
