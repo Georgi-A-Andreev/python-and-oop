@@ -1,12 +1,12 @@
 import os
 import django
-
+from django.db.models import Avg
 
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
-from main_app.models import Book, Author, Artist, Song
+from main_app.models import Book, Author, Artist, Song, Product, Review
 
 
 def show_all_authors_with_their_books():
@@ -76,4 +76,35 @@ def remove_song_from_artist(artist_name: str, song_title: str):
     artist = Artist.objects.get(name=artist_name)
     song = Song.objects.get(title=song_title)
     artist.songs.remove(song)
+
+
+def calculate_average_rating_for_product_by_name(product_name: str):
+    return Product.objects.filter(name=product_name).aggregate(av_rating=Avg('reviews__rating'))['av_rating']
+
+# Create some products
+# product1 = Product.objects.create(name="Laptop")
+# product2 = Product.objects.create(name="Smartphone")
+# product3 = Product.objects.create(name="Headphones")
+# product4 = Product.objects.create(name="PlayStation 5")
+#
+# # Create some reviews for products
+# review1 = Review.objects.create(description="Great laptop!", rating=5, product=product1)
+# review2 = Review.objects.create(description="The laptop is slow!", rating=2, product=product1)
+# review3 = Review.objects.create(description="Awesome smartphone!", rating=5, product=product2)
+# Calculate and print the average rating
+# print(calculate_average_rating_for_product_by_name("Laptop"))
+def get_reviews_with_high_ratings(threshold: int):
+    return Review.objects.filter(rating__gte=threshold)
+
+
+def get_products_with_no_reviews():
+    return Product.objects.filter(reviews__isnull=True).order_by('-name')
+
+# Run the function to get products without reviews
+# products_without_reviews = get_products_with_no_reviews()
+# print(f"Products without reviews: {', '.join([p.name for p in products_without_reviews])}")
+
+
+def delete_products_without_reviews():
+    get_products_with_no_reviews().delete()
 
