@@ -6,7 +6,7 @@ import django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
-from main_app.models import Book, Author
+from main_app.models import Book, Author, Artist, Song
 
 
 def show_all_authors_with_their_books():
@@ -58,3 +58,22 @@ def delete_all_authors_without_books():
 # Delete authors without books
 # delete_all_authors_without_books()
 # print(Author.objects.count())
+
+
+def add_song_to_artist(artist_name: str, song_title: str):
+    artist = Artist.objects.get(name=artist_name)
+    song = Song.objects.get(title=song_title)
+
+    artist.songs.add(song)
+
+
+def get_songs_by_artist(artist_name: str):
+    artist = Artist.objects.get(name=artist_name)
+    return artist.songs.all()
+
+
+def remove_song_from_artist(artist_name: str, song_title: str):
+    artist = Artist.objects.get(name=artist_name)
+    song = Song.objects.get(title=song_title)
+    artist.songs.remove(song)
+
