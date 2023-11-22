@@ -1,6 +1,7 @@
 from django.db import models
 
-from main_app.managers import RealEstateListingManager
+from main_app.managers import RealEstateListingManager, VideoGameManager
+from main_app.validators import validate_release_year, validate_rating
 
 
 # Create your models here.
@@ -34,8 +35,10 @@ class VideoGame(models.Model):
 
     title = models.CharField(max_length=100)
     genre = models.CharField(max_length=100, choices=GENRE_CHOICES)
-    release_year = models.PositiveIntegerField()
-    rating = models.DecimalField(max_digits=2,decimal_places=1)
+    release_year = models.PositiveIntegerField(validators=[validate_release_year])
+    rating = models.DecimalField(max_digits=2,decimal_places=1, validators=[validate_rating])
+
+    objects = VideoGameManager()
 
     def __str__(self):
         return self.title
@@ -49,6 +52,18 @@ class Invoice(models.Model):
     invoice_number = models.CharField(max_length=20, unique=True)
     billing_info = models.OneToOneField(BillingInfo, on_delete=models.CASCADE)
 
+    @classmethod
+    def get_invoices_with_prefix(cls, prefix):
+        return cls.objects.filter(invoice_number__istartswith=prefix)
+
+    @classmethod
+    def get_invoices_sorted_by_number(cls):
+        return cls.objects.order_by('invoice_number')
+
+    @classmethod
+    def get_invoice_with_billing_info(cls, invoice_number: str):
+        return cls.objects.get(invoice_number=invoice_number)
+
 
 class Technology(models.Model):
     name = models.CharField(max_length=100)
@@ -60,10 +75,16 @@ class Project(models.Model):
     description = models.TextField()
     technologies_used = models.ManyToManyField(Technology, related_name='projects')
 
+    def get_programmers_with_technologies(self):
+        return self.programmers.prefetch_related('projects__technologies_used')
+
 
 class Programmer(models.Model):
     name = models.CharField(max_length=100)
     projects = models.ManyToManyField(Project, related_name='programmers')
+
+    def get_projects_with_technologies(self):
+        return self.projects.prefetch_related('technologies_used')
 
 
 class Task(models.Model):
