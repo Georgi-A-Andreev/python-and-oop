@@ -1,12 +1,16 @@
 from django.core.validators import MinLengthValidator, MinValueValidator, MaxValueValidator
 from django.db import models
 
+from main_app.custom_manager import CustomDirector
+
 
 class Director(models.Model):
     full_name = models.CharField(max_length=120, validators=[MinLengthValidator(2)])
     birth_date = models.DateField(default='1900-01-01')
     nationality = models.CharField(max_length=50, default='Unknown')
     years_of_experience = models.SmallIntegerField(validators=[MinValueValidator(0)], default=0)
+
+    objects = CustomDirector()
 
 
 class Actor(models.Model):
