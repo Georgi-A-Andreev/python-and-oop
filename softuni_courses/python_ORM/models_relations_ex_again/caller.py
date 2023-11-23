@@ -1,12 +1,17 @@
 import os
+from datetime import date
+
 import django
-from django.db.models import Avg
+
 
 # Set up Django
 os.environ.setdefault("DJANGO_SETTINGS_MODULE", "orm_skeleton.settings")
 django.setup()
 
-from main_app.models import Book, Author, Artist, Song, Product, Review
+
+from django.db.models import Avg
+
+from main_app.models import Book, Author, Artist, Song, Product, Review, Registration, Car, Owner
 
 
 def show_all_authors_with_their_books():
@@ -108,3 +113,24 @@ def get_products_with_no_reviews():
 def delete_products_without_reviews():
     get_products_with_no_reviews().delete()
 
+
+def calculate_licenses_expiration_dates():
+    pass
+
+
+def register_car_by_owner(owner: Owner) -> str:
+    registration = Registration.objects.filter(car__isnull=True).first()
+    car = Car.objects.filter(registration__isnull=True, owner=owner).first()
+
+    car.owner = owner
+    car.registration = registration
+
+    car.save()
+
+    registration.registration_date = date.today()
+    registration.car = car
+
+    registration.save()
+
+    return (f"Successfully registered {car.model} to {owner.name}"
+            f" with registration number {registration.registration_number}.")
