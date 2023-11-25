@@ -7,9 +7,9 @@ django.setup()
 # Import your models here
 # Create and run your queries within functions
 
-from django.db.models import Q, Count
+from django.db.models import Q, Count, F
 
-from main_app.models import Profile, Order
+from main_app.models import Profile, Order, Product
 
 
 def get_profiles(search_string=None):
@@ -48,3 +48,40 @@ def get_last_sold_products():
         return ''
 
     return f"Last sold products: {', '.join([p.name for p in products])}"
+
+
+def get_top_products():
+    if not Order.objects.all():
+        return ''
+    products = Product.objects.annotate(num_orders=Count('orders')).filter(num_orders__gt=0).order_by('-num_orders', 'name')[:5]
+
+    if not products:
+        return ''
+
+    return 'Top products:\n' + '\n'.join(
+        f'{p.name}, sold {p.num_orders} times'
+        for p in products
+    )
+
+
+def apply_discounts():
+    orders = Order.objects.annotate(num_products=Count('products')).filter(num_products__gt=2, is_completed=False)
+
+    result = orders.update(total_price=F('total_price') * 0.9)
+    return f"Discount applied to {result} orders."
+
+
+def complete_order():
+    order = Order.objects.filter(is_completed=False).order_by('creation_date').first()
+    if not order:
+        return ''
+    order.is_completed = True
+    order.save()
+
+    for p in order.products.all():
+        p.in_stock -= 1
+        if p.in_stock == 0:
+            p.is_available = False
+        p.save()
+
+    return "Order has been completed!"
