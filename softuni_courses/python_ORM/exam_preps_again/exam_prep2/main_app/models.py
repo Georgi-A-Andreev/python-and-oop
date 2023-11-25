@@ -1,6 +1,9 @@
 from django.core.validators import MinLengthValidator, MinValueValidator
 from django.db import models
 
+from main_app.managers import CustomManager
+
+
 # Create your models here.
 
 
@@ -11,6 +14,8 @@ class Profile(models.Model):
     address = models.TextField()
     is_active = models.BooleanField(default=True)
     creation_date = models.DateTimeField(auto_now_add=True)
+
+    objects = CustomManager()
 
 
 class Product(models.Model):
