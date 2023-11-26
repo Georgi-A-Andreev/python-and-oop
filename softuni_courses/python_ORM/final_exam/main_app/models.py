@@ -1,6 +1,9 @@
 from django.core.validators import MinLengthValidator, MaxValueValidator, MinValueValidator
 from django.db import models
 
+from main_app.managers import CustomManager
+
+
 # Create your models here.
 
 class Author(models.Model):
@@ -9,6 +12,8 @@ class Author(models.Model):
     is_banned = models.BooleanField(default=False)
     birth_year = models.PositiveIntegerField(validators=[MinValueValidator(1900), MaxValueValidator(2005)])
     website = models.URLField(null=True, blank=True)
+
+    objects = CustomManager()
 
 
 class Article(models.Model):
