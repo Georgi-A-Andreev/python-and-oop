@@ -9,7 +9,9 @@ django.setup()
 
 from django.db.models import Q, Count
 
-from main_app.models import Author
+from main_app.models import Author, Article, Review
+
+
 # Import your models here
 # Create and run your queries within functions
 def get_authors(search_name=None, search_email=None):
@@ -24,7 +26,7 @@ def get_authors(search_name=None, search_email=None):
     else:
         q = (Q(email__icontains=search_email) & Q(full_name__icontains=search_name))
 
-    authors = Author.objects.filter(q)
+    authors = Author.objects.filter(q).order_by('-full_name')
     if not authors:
         return ''
 
@@ -38,15 +40,19 @@ def get_authors(search_name=None, search_email=None):
 
 def get_top_publisher():
     authors = Author.objects.get_authors_by_article_count().first()
-    if not authors:
+    if not Article.objects.all():
         return ''
-
     return f"Top Author: {authors.full_name} with {authors.num_articles} published articles."
 
 
 def get_top_reviewer():
     author = Author.objects.annotate(num_reviews=Count('reviews')).order_by('-num_reviews', 'email').first()
-    if not author:
+    if not Review.objects.all():
         return ''
 
     return f"Top Reviewer: {author.full_name} with {author.num_reviews} published reviews."
+
+
+
+# def get_latest_article():
+#     latest_article = Article.objects
