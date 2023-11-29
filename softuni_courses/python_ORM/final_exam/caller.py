@@ -56,14 +56,11 @@ def get_top_reviewer():
 def get_latest_article():
     if not Article.objects.all():
         return ''
-    if not Author.objects.all():
-        return ''
-    if not Review.objects.all():
-        return ''
+
     article = (Article.objects.annotate(num_reviews=Count('reviews'), avg_rating=Avg('reviews__rating'))
                .order_by('-published_on').first())
 
-    if not article.reviews.all():
+    if not Review.objects.all() or not article.reviews.all():
         return ''
 
     authors = ', '.join([a.full_name for a in article.authors.order_by('full_name')])
