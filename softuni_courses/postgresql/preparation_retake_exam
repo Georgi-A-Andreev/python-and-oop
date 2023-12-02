@@ -148,3 +148,11 @@ WHERE at.animal_type = 'Mammals'
 ORDER BY o.name, a.name DESC;
 
 
+SELECT 	name as volunteers,
+		phone_number,
+		TRIM(TRIM(TRIM(TRIM(address), 'Sofia')), ', ') AS address
+FROM volunteers as v
+JOIN volunteers_departments as vd
+ON vd.id = v.department_id
+WHERE address LIKE '%Sofia%' AND vd.department_name = 'Education program assistant'
+ORDER BY name
