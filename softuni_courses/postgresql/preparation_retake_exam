@@ -185,3 +185,19 @@ END;
 $$
 LANGUAGE plpgsql;
 
+CREATE PROCEDURE sp_animals_with_owners_or_not(IN animal_name VARCHAR(30), OUT ownerx2 VARCHAR)
+AS
+$$
+DECLARE owner INT DEFAULT NULL;
+BEGIN
+		SELECT owner_id INTO owner
+		FROM animals
+		WHERE name = animal_name;
+		IF owner IS NULL THEN ownerx2 := 'For adoption';
+		ELSE SELECT name INTO ownerx2
+		FROM owners
+		WHERE id = owner;
+		END IF;
+END
+$$
+LANGUAGE plpgsql;
