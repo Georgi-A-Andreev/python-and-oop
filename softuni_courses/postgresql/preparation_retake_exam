@@ -156,3 +156,13 @@ JOIN volunteers_departments as vd
 ON vd.id = v.department_id
 WHERE address LIKE '%Sofia%' AND vd.department_name = 'Education program assistant'
 ORDER BY name
+
+SELECT name AS animal,
+		EXTRACT(YEAR FROM birthdate) AS birth_year,
+		at.animal_type AS animal_type
+FROM animals AS a
+JOIN animal_types AS at
+ON a.animal_type_id = at.id
+
+WHERE owner_id IS null AND birthdate > '01/01/2017' AND animal_type_id != 3
+ORDER BY name
