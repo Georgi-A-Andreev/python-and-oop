@@ -329,3 +329,20 @@ JOIN cars as c
 ON c.id = cd.car_id
 WHERE c.mileage IS NOT NULL
 ORDER BY c.mileage DESC, d.first_name
+
+ORDER BY count_of_courses DESC, c.id
+) as subquery
+WHERE count_of_courses <> 2
+
+select * from (
+	SELECT c.full_name,
+			COUNT(*) AS count_of_cars,
+			ROUND(SUM(co.bill), 2) AS total_sum
+	FROM clients as c
+	JOIN courses as co
+	ON co.client_id = c.id
+	WHERE SUBSTRING(c.full_name FROM 2 FOR 1) = 'a'
+	GROUP BY c.full_name
+	ORDER BY c.full_name
+) as subquery
+WHERE count_of_cars > 1;
