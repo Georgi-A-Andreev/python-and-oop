@@ -310,3 +310,22 @@ WHERE full_name IN (
 		ON c.id = co.client_id
 		WHERE co.client_id IS NULL
 ) AND LENGTH(full_name) > 3
+
+SELECT make, model, condition
+ FROM cars
+ ORDER BY id
+
+
+SELECT d.first_name,
+		d.last_name,
+		c.make,
+		c.model,
+		c.mileage
+
+FROM drivers as d
+JOIN cars_drivers as cd
+ON d.id = cd.driver_id
+JOIN cars as c
+ON c.id = cd.car_id
+WHERE c.mileage IS NOT NULL
+ORDER BY c.mileage DESC, d.first_name
