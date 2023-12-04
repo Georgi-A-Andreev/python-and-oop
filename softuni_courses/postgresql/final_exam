@@ -149,6 +149,94 @@ FROM customers;
 
 
 
+UPDATE products
+SET price = price * 1.1
+WHERE id IN (14, 1, 20, 11, 25, 18, 30, 6, 3)
+
+DELETE FROM distributors
+WHERE name LIKE 'L%'
+
+
+SELECT name,
+recipe,
+price
+FROM products
+WHERE price BETWEEN 10 AND 20
+ORDER BY price DESC
+
+select * from feedbacks
+
+
+SELECT f.product_id,
+	f.rate,
+	f.description,
+	f.customer_id,
+	c.age,
+	c.gender
+FROM feedbacks as f
+JOIN customers as c
+ON f.customer_id = c.id
+WHERE rate < 5 AND c.gender = 'F' AND c.age > 30
+ORDER BY f.product_id DESC
+
+select * from products
+
+
+
+SELECT * FROM(
+	SELECT p.name,
+			ROUND(AVG(p.price), 2) AS average_price,
+			COUNT(*) AS total_feedbacks
+	FROM products p
+	JOIN feedbacks as f
+	ON f.product_id = p.id
+	WHERE p.price > 15
+	GROUP BY p.name
+) as subquery
+WHERE total_feedbacks > 1
+ORDER BY total_feedbacks, average_price DESC
+
+
+
+select * from ingredients
+
+
+SELECT i.name as ingredient_name,
+		p.name as product_name,
+		d.name as distributor_name
+FROM ingredients as i
+JOIN products_ingredients as pi
+ON pi.ingredient_id = i.id
+JOIN products as p
+ON p.id = pi.product_id
+JOIN distributors AS d
+ON d.id = i.distributor_id
+WHERE d.country_id = 16 and LOWER(i.name) = 'mustard'
+ORDER BY p.name
+
+
+SELECT * FROM (
+SELECT d.name as distributor_name,
+		i.name as ingredient_name,
+		p.name as product_name,
+		AVG(f.rate) AS average_rate
+FROM ingredients as i
+JOIN products_ingredients as pi
+ON pi.ingredient_id = i.id
+JOIN products as p
+ON p.id = pi.product_id
+JOIN distributors AS d
+ON d.id = i.distributor_id
+JOIN feedbacks as f
+ON f.product_id = p.id
+GROUP BY d.name, i.name, p.name
+
+ORDER BY d.name, i.name, p.name
+) as subsquery
+WHERE average_rate BETWEEN 5 AND 8
+
+
+
 
 
 
