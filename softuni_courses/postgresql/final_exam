@@ -93,3 +93,63 @@ CREATE TABLE products_ingredients(
 	ON DELETE CASCADE
 	ON UPDATE CASCADE
 );
+-- CREATE TABLE gift_recipients(
+-- 	id SERIAL PRIMARY KEY,
+-- 	name VARCHAR(255),
+-- 	country_id INT,
+-- 	gift_sent BOOLEAN DEFAULT False
+-- );
+
+
+
+CREATE TABLE gift_recipients (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    country_id INT,
+    gift_sent BOOLEAN DEFAULT False
+);
+
+INSERT INTO gift_recipients (name, country_id)
+	SELECT
+			CONCAT(first_name, ' ', last_name) as name,
+			country_id
+	FROM customers;
+
+UPDATE gift_recipients
+SET gift_sent = TRUE
+WHERE country_id IN (7, 8, 14, 17, 26);
+
+select * from gift_recipients
+order by id
+drop table gift_recipients
+
+CREATE TABLE gift_recipients (
+	id INT primary key,
+	SELECT
+			CONCAT(first_name, ' ', last_name) as name,
+			country_id,
+			CASE WHEN country_id IN ( 7, 8, 14, 17, 26) THEN True
+			ELSE False
+			END AS gift_sent
+	FROM customers;)
+
+
+CREATE TABLE gift_recipients (
+    id SERIAL PRIMARY KEY,
+    name TEXT,
+    country_id INTEGER,
+    gift_sent BOOLEAN DEFAULT FALSE
+);
+INSERT INTO gift_recipients (name, country_id, gift_sent)
+SELECT
+    first_name || ' ' || last_name AS name,
+    country_id,
+    CASE WHEN country_id IN (7, 8, 14, 17, 26) THEN TRUE ELSE FALSE END AS gift_sent
+FROM customers;
+
+
+
+
+
+
+
