@@ -20,9 +20,8 @@ class Tournament:
 
     @name.setter
     def name(self, value):
-        for i in value:
-            if not i.isdigit() and not i.isalpha():
-                raise ValueError("Tournament name should contain letters and digits only!")
+        if not value.isalnum():
+            raise ValueError("Tournament name should contain letters and digits only!")
         self.__name = value
 
     def add_equipment(self, equipment_type):
