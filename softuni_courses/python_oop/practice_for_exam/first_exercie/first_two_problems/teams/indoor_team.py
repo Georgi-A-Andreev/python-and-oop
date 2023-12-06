@@ -1,4 +1,4 @@
-from project.teams.base_team import BaseTeam
+from first_exercie.first_two_problems.teams.base_team import BaseTeam
 
 
 class IndoorTeam(BaseTeam):

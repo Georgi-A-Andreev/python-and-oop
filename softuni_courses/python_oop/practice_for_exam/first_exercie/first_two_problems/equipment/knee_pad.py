@@ -1,4 +1,4 @@
-from project.equipment.base_equipment import BaseEquipment
+from first_exercie.first_two_problems.equipment.base_equipment import BaseEquipment
 
 
 class KneePad(BaseEquipment):
