@@ -17,7 +17,7 @@ class BaseTeam(ABC):
 
     @name.setter
     def name(self, value):
-        if not value.strip():
+        if value.strip() == '':
             raise ValueError("Team name cannot be empty!")
         self.__name = value
 

@@ -33,20 +33,22 @@ class Tournament:
     def add_team(self, team_type, team_name, country, advantage):
         if team_type not in self.TEAM_TYPES:
             raise Exception("Invalid team type!")
-        if len(self.teams) >= self.capacity:
+        if len(self.teams) == self.capacity:
             return "Not enough tournament capacity."
         self.teams.append(self.TEAM_TYPES[team_type](team_name, country, advantage))
         return f"{team_type} was successfully added."
 
     def sell_equipment(self, equipment_type, team_name):
         equipment = None
-        for o in self.equipment[::-1]:
-            if isinstance(o, self.EQUIPMENT_TYPES[equipment_type]):
+        for o in reversed(self.equipment):
+            if o.__class__.__name__ == equipment_type:
                 equipment = o
+                break
         team = None
         for t in self.teams:
             if t.name == team_name:
                 team = t
+                break
 
         if equipment.price > team.budget:
             raise Exception("Budget is not enough!")
@@ -62,7 +64,7 @@ class Tournament:
             if t.name == team_name:
                 team = t
                 break
-        else:
+        if team is None:
             raise Exception("No such team!")
 
         if team.wins:
@@ -74,7 +76,7 @@ class Tournament:
     def increase_equipment_price(self, equipment_type):
         counter = 0
         for i in self.equipment:
-            if isinstance(i, self.EQUIPMENT_TYPES[equipment_type]):
+            if i.__class__.__name__ == equipment_type:
                 i.increase_price()
                 counter += 1
         return f'Successfully changed {counter}pcs of equipment.'
@@ -88,7 +90,7 @@ class Tournament:
             if i.name == team_name2:
                 team2 = i
 
-        if type(team1) is not type(team2):
+        if team1.__class__.__name__ != team2.__class__.__name__:
             raise Exception("Game cannot start! Team types mismatch!")
 
         team1_points = team1.advantage + sum([i.protection for i in team1.equipment])
