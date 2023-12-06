@@ -46,11 +46,10 @@ class BaseTeam(ABC):
         pass
 
     def get_statistics(self):
-        return f"""Name: {self.name}
-Country: {self.country}
-Advantage: {self.advantage} points
-Budget: {self.budget:.2f}EUR
-Wins: {self.wins}
-Total Equipment Price: {sum([a.price for a in self.equipment]):.2f}
-Average Protection: {floor(sum([a.protection for a in self.equipment]) / len(self.equipment)) if self.equipment else 0}
-"""
+        return f"Name: {self.name}\n"\
+                f"Country: {self.country}\n"\
+                f"Advantage: {self.advantage} points\n"\
+                f"Budget: {self.budget:.2f}EUR\n"\
+                f"Wins: {self.wins}\n"\
+                f"Total Equipment Price: {sum([a.price for a in self.equipment]):.2f}\n"\
+                f"Average Protection: {floor(sum([a.protection for a in self.equipment]) / len(self.equipment)) if self.equipment else 0}"

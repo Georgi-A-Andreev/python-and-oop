@@ -108,14 +108,14 @@ class Tournament:
 
     def get_statistics(self):
         result = []
-        result.append(f"""Tournament: {self.name}
-Number of Teams: {len(self.teams)}
-Teams:
-""")
+        result.append(f"Tournament: {self.name}")
+        result.append(f'Number of Teams: {len(self.teams)}')
+        result.append(f'Teams:')
+
         for i in sorted(self.teams, key=lambda x: -x.wins):
             result.append(i.get_statistics())
 
-        return ''.join(result)
+        return '\n'.join(result)
 
 
 t = Tournament('SoftUniada2023', 2)
