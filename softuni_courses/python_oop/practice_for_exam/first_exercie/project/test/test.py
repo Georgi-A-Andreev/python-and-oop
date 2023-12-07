@@ -1,5 +1,5 @@
 import unittest
-from project.trip import Trip
+from testing_first_exam.trip import Trip
 
 
 class TestTrip(unittest.TestCase):
