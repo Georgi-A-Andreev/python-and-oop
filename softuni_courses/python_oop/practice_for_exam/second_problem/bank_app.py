@@ -1,7 +1,7 @@
-from project.clients.adult import Adult
-from project.clients.student import Student
-from project.loans.mortgage_loan import MortgageLoan
-from project.loans.student_loan import StudentLoan
+from second_problem.clients.adult import Adult
+from second_problem.clients.student import Student
+from second_problem.loans.mortgage_loan import MortgageLoan
+from second_problem.loans.student_loan import StudentLoan
 
 
 class BankApp:

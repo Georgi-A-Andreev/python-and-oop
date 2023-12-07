@@ -1,4 +1,4 @@
-from project.clients.base_client import BaseClient
+from second_problem.clients.base_client import BaseClient
 
 
 class Student(BaseClient):
