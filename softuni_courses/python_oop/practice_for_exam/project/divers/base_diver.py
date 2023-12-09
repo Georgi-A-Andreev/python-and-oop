@@ -8,7 +8,7 @@ class BaseDiver(ABC):
         self.name = name
         self.oxygen_level = oxygen_level
         self.catch = []
-        self.competition_points = 0
+        self.competition_points = round(0, 1)
         self.has_health_issue = False
 
     @property
@@ -46,7 +46,7 @@ class BaseDiver(ABC):
         self.oxygen_level = max(self.oxygen_level - fish.time_to_catch, 0)
 
     def update_health_status(self):
-        self.has_health_issue = True if not self.has_health_issue else self.has_health_issue = False
+        self.has_health_issue = True if not self.has_health_issue else False
 
     def __str__(self):
         return f"{self.__class__.__name__}: [Name: {self.name}, Oxygen level left: {self.oxygen_level}, Fish caught: {len(self.catch)}, Points earned: {self.competition_points}]"
