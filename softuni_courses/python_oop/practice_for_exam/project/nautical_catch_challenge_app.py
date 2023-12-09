@@ -8,7 +8,6 @@ class NauticalCatchChallengeApp:
     VALID_DIVERS = {'FreeDiver': FreeDiver, 'ScubaDiver': ScubaDiver}
     VALID_FISH = {'PredatoryFish': PredatoryFish, 'DeepSeaFish': DeepSeaFish}
 
-
     def __init__(self):
         self.divers = []
         self.fish_list = []

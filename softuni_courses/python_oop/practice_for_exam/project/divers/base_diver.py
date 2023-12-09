@@ -8,7 +8,7 @@ class BaseDiver(ABC):
         self.name = name
         self.oxygen_level = oxygen_level
         self.catch = []
-        self.competition_points = round(0, 1)
+        self.competition_points = 0.0
         self.has_health_issue = False
 
     @property

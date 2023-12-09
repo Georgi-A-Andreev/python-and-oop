@@ -8,7 +8,7 @@ class FreeDiver(BaseDiver):
         super().__init__(name, self.BASE_OXY)
 
     def miss(self, time_to_catch):
-        self.oxygen_level = max(self.oxygen_level - round(time_to_catch * 0.6), 0)
+        self.oxygen_level = max(round(self.oxygen_level - time_to_catch * 0.6), 0)
 
     def renew_oxy(self):
         self.oxygen_level = self.BASE_OXY
