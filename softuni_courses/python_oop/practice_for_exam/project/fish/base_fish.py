@@ -1,4 +1,4 @@
-from abc import ABC, abstractmethod
+from abc import ABC
 
 
 class BaseFish(ABC):
@@ -27,6 +27,6 @@ class BaseFish(ABC):
             raise ValueError("Points should be a value ranging from 1 to 10!")
         self.__points = value
 
-    @abstractmethod
     def fish_details(self):
-        pass
+        return f"{self.__class__.__name__}: {self.name} [Points: {self.points}, Time to Catch: {self.time_to_catch} seconds]"
+
