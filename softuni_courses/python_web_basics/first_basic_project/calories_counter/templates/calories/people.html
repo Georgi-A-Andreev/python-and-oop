@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>People Trying to Lose Weight</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            color: #333;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 10px;
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        h2 {
+            margin: 0;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <h1>These are all the people who are trying to lose weight.</h1>
+    <ul>
+        {% for p in people %}
+            <li><h2>{{ forloop.counter }}. {{ p }}</h2></li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
