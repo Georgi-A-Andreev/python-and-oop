@@ -10,7 +10,7 @@ class Foods(models.Model):
     total_calories = models.DecimalField(max_digits=7, decimal_places=1, default=0)
 
 
-class Activity(models.Model):
+class Activities(models.Model):
     name = models.CharField(max_length=100)
     calories_per_hour = models.IntegerField()
 
@@ -18,5 +18,4 @@ class Activity(models.Model):
 class People(models.Model):
     name = models.CharField(max_length=20)
     age = models.IntegerField(validators=[MinValueValidator(0)])
-    total_calories = models.DecimalField(max_digits=10, decimal_places=1, default=0)
-
+    total_calories_to_burn = models.DecimalField(max_digits=10, decimal_places=1, default=0)
