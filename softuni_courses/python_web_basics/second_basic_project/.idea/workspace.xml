@@ -1,7 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5978989a-f5ba-4984-a3aa-494686af66b6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../python_oop/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_oop/.idea/python_oop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/.idea/python_oop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_oop/testing_exercise/hero/test/test_hero.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/testing_exercise/hero/test/test_hero.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_oop/testing_exercise/mammal/test/test_mammal.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/testing_exercise/mammal/test/test_mammal.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_oop/testing_exercise/student/test/test_student.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/testing_exercise/student/test/test_student.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_oop/testing_exercise/vehicle/test/test_vehicle.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_oop/testing_exercise/vehicle/test/test_vehicle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/apps.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/my_funcs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/my_funcs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/calories_counter/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../first_basic_project/first_basic_project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../first_basic_project/first_basic_project/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/second_basic_project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/second_basic_project/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2ZdIX90CfvTI7sjAzHDA1uyZU8D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="second_basic_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="second_basic_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5978989a-f5ba-4984-a3aa-494686af66b6" name="Changes" comment="" />
+      <created>1702745565594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702745565594</updated>
+      <workItem from="1702745570232" duration="68000" />
+      <workItem from="1705153526898" duration="264000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
 </project>
